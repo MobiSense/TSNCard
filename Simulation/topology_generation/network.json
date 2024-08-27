@@ -1,0 +1,150 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "type": "switch",
+            "mac": "00:00:00:00:02:01",
+            "ptp_ports": [1, 0, 0, 0, 3]
+        },
+        {
+            "id": 1,
+            "type": "switch",
+            "mac": "00:00:00:00:02:02",
+            "ptp_ports": [3, 1, 0, 0, 3]
+        },
+        {
+            "id": 2,
+            "type": "device",
+            "mac": "00:00:00:00:00:01"
+        },
+        {
+            "id": 3,
+            "type": "device",
+            "mac": "00:00:00:00:00:02"
+        },
+        {
+            "id": 4,
+            "type": "device",
+            "mac": "00:00:00:00:00:03"
+        },
+        {
+            "id": 5,
+            "type": "device",
+            "mac": "00:00:00:00:00:04"
+        }
+    ],
+    "links": [
+        {
+            "id": 0,
+            "src": 2,
+            "src_port": 0,
+            "dst": 0,
+            "dst_port": 0
+        },
+        {
+            "id": 1,
+            "src": 0,
+            "src_port": 0,
+            "dst": 2,
+            "dst_port": 0
+        },
+        {
+            "id": 2,
+            "src": 3,
+            "src_port": 0,
+            "dst": 0,
+            "dst_port": 2
+        },
+        {
+            "id": 3,
+            "src": 0,
+            "src_port": 2,
+            "dst": 3,
+            "dst_port": 0
+        },
+        {
+            "id": 4,
+            "src": 0,
+            "src_port": 1,
+            "dst": 1,
+            "dst_port": 0
+        },
+        {
+            "id": 5,
+            "src": 1,
+            "src_port": 0,
+            "dst": 0,
+            "dst_port": 1
+        },
+        {
+            "id": 6,
+            "src": 4,
+            "src_port": 0,
+            "dst": 1,
+            "dst_port": 1
+        },
+        {
+            "id": 7,
+            "src": 1,
+            "src_port": 1,
+            "dst": 4,
+            "dst_port": 0
+        },
+        {
+            "id": 8,
+            "src": 5,
+            "src_port": 0,
+            "dst": 1,
+            "dst_port": 2
+        },
+        {
+            "id": 9,
+            "src": 1,
+            "src_port": 2,
+            "dst": 5,
+            "dst_port": 0
+        },
+        {
+            "id": 10,
+            "src": 0,
+            "src_port": 4,
+            "dst": 0,
+            "dst_port": 4
+        },
+        {
+            "id": 11,
+            "src": 1,
+            "src_port": 4,
+            "dst": 1,
+            "dst_port": 4
+        },
+        {
+            "id": 12,
+            "src": 2,
+            "src_port": 4,
+            "dst": 2,
+            "dst_port": 4
+        },
+        {
+            "id": 13,
+            "src": 3,
+            "src_port": 4,
+            "dst": 3,
+            "dst_port": 4
+        },
+        {
+            "id": 14,
+            "src": 4,
+            "src_port": 4,
+            "dst": 4,
+            "dst_port": 4
+        },
+        {
+            "id": 15,
+            "src": 5,
+            "src_port": 4,
+            "dst": 5,
+            "dst_port": 4
+        }
+    ]
+}

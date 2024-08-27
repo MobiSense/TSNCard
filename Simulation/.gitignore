@@ -1,0 +1,5 @@
+*.exe
+out/
+results/
+log_raw/
+log_json/

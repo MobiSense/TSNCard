@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "type": "switch",
+            "mac": "00:00:00:00:02:01",
+            "ptp_ports": [
+                1,
+                0,
+                0,
+                0,
+                3
+            ]
+        },
+        {
+            "id": 1,
+            "type": "device",
+            "mac": "00:00:00:00:00:01"
+        },
+        {
+            "id": 2,
+            "type": "device",
+            "mac": "00:00:00:00:00:02"
+        }
+    ],
+    "links": [
+        {
+            "id": 0,
+            "src": 0,
+            "src_port": 0,
+            "dst": 1,
+            "dst_port": 0
+        },
+        {
+            "id": 1,
+            "src": 0,
+            "src_port": 1,
+            "dst": 2,
+            "dst_port": 0
+        },
+        {
+            "id": 2,
+            "src": 1,
+            "src_port": 0,
+            "dst": 0,
+            "dst_port": 0
+        },
+        {
+            "id": 3,
+            "src": 2,
+            "src_port": 0,
+            "dst": 0,
+            "dst_port": 1
+        },
+        {
+            "id": 4,
+            "src": 0,
+            "src_port": 4,
+            "dst": 0,
+            "dst_port": 4
+        },
+        {
+            "id": 5,
+            "src": 1,
+            "src_port": 4,
+            "dst": 1,
+            "dst_port": 4
+        },
+        {
+            "id": 6,
+            "src": 2,
+            "src_port": 4,
+            "dst": 2,
+            "dst_port": 4
+        }
+    ]
+}
