@@ -80,7 +80,7 @@ Please consider citing our papers if the project helps your research with the fo
 ```bibtex
 @inproceedings{tsncard,
   author={Wang, Zeyu and He, Xiaowu and Zhuge, Xiangwen and Xu, Shen and Dang, Fan and Xu, Jingao and Yang, Zheng},
-  booktitle={IEEE/ACM IWQoS 2024 - EEE/ACM International Symposium on Quality of Service}, 
+  booktitle={IEEE/ACM IWQoS 2024 - IEEE/ACM International Symposium on Quality of Service}, 
   title={Enabling Network Diagnostics in Time-Sensitive Networking: Protocol, Algorithm, and Hardware}, 
   year={2024}
 }
