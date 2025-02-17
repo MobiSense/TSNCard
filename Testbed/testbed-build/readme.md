@@ -100,7 +100,7 @@ The corresponding config file can be seen in `config.json`.
 
 #### Control Script Preparation
 
-Refer to [CNC-User-Manual](./CNC_manual.md)
+Refer to [CNC-User-Manual](./CNC_Manual.md)
 
 #### Background Traffic Sending
 
