@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tns_tsn_03_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="302739500fs"></ZoomStartTime>
+      <ZoomEndTime time="303090501fs"></ZoomEndTime>
+      <Cursor1Time time="303032000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="185"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tuser" type="array">
+      <obj_property name="ElementShortName">s_axis_tuser[127:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tuser[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/nxt_state" type="logic">
+      <obj_property name="ElementShortName">nxt_state</obj_property>
+      <obj_property name="ObjectShortName">nxt_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/C_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/C_TUSER_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_TUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_TUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/ADD_HEADER_S" type="array">
+      <obj_property name="ElementShortName">ADD_HEADER_S[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_HEADER_S[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_add_i/WAIT_EOP_S" type="array">
+      <obj_property name="ElementShortName">WAIT_EOP_S[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_EOP_S[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[255:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/s_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">s_axis_tkeep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/s_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tuser" type="array">
+      <obj_property name="ElementShortName">m_axis_tuser[127:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tuser[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tkeep" type="array">
+      <obj_property name="ElementShortName">m_axis_tkeep[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/state" type="logic">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/nxt_state" type="logic">
+      <obj_property name="ElementShortName">nxt_state</obj_property>
+      <obj_property name="ObjectShortName">nxt_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/C_DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/C_TUSER_WIDTH" type="array">
+      <obj_property name="ElementShortName">C_TUSER_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_TUSER_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/HEADER2USER_S" type="array">
+      <obj_property name="ElementShortName">HEADER2USER_S[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HEADER2USER_S[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/cpu_header_rm_i/WAIT_EOP_S" type="array">
+      <obj_property name="ElementShortName">WAIT_EOP_S[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_EOP_S[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+Work_Dir/
+Ex/
+Python/abrupt_traffic/__pycache__/
+Wireshark/
+project_phy_speed/
+.DS_Store
+*.jou
+*.log
+.vscode/
+*.pyc
+.idea/

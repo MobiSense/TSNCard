@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="datapath_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="12630340166fs"></ZoomStartTime>
+      <ZoomEndTime time="12630536767fs"></ZoomEndTime>
+      <Cursor1Time time="12630352566fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="226"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group97" type="group">
+      <obj_property name="label">Top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/sync_time_ptp_ns" type="array">
+         <obj_property name="ElementShortName">sync_time_ptp_ns[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sync_time_ptp_ns[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_tdata[0:4][255:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[0:4][255:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tkeep" type="array">
+         <obj_property name="ElementShortName">s_axis_tkeep[0:4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tkeep[0:4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tuser" type="array">
+         <obj_property name="ElementShortName">s_axis_tuser[0:4][127:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tuser[0:4][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tvalid" type="array">
+         <obj_property name="ElementShortName">s_axis_tvalid[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tready" type="array">
+         <obj_property name="ElementShortName">s_axis_tready[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/s_axis_tlast" type="array">
+         <obj_property name="ElementShortName">s_axis_tlast[4:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/sync_time_ptp_ns" type="array">
+         <obj_property name="ElementShortName">sync_time_ptp_ns[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sync_time_ptp_ns[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/\genblk1[0].transmission_selection_i /GateStates" type="array">
+         <obj_property name="ElementShortName">GateStates[7:0]</obj_property>
+         <obj_property name="ObjectShortName">GateStates[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/\genblk1[1].transmission_selection_i /GateStates" type="array">
+         <obj_property name="ElementShortName">GateStates[7:0]</obj_property>
+         <obj_property name="ObjectShortName">GateStates[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/\genblk1[2].transmission_selection_i /GateStates" type="array">
+         <obj_property name="ElementShortName">GateStates[7:0]</obj_property>
+         <obj_property name="ObjectShortName">GateStates[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/\genblk1[3].transmission_selection_i /GateStates" type="array">
+         <obj_property name="ElementShortName">GateStates[7:0]</obj_property>
+         <obj_property name="ObjectShortName">GateStates[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_tdata[0:4][255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[0:4][255:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_tkeep[0:4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tkeep[0:4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_tuser[0:4][127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tuser[0:4][127:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tvalid" type="array">
+         <obj_property name="ElementShortName">m_axis_tvalid[4:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tready" type="array">
+         <obj_property name="ElementShortName">m_axis_tready[4:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tready[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/m_axis_tlast" type="array">
+         <obj_property name="ElementShortName">m_axis_tlast[4:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tlast[4:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group743" type="group">
+      <obj_property name="label">OutputQueues</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/axis_aclk" type="logic">
+         <obj_property name="ElementShortName">axis_aclk</obj_property>
+         <obj_property name="ObjectShortName">axis_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/axis_resetn" type="logic">
+         <obj_property name="ElementShortName">axis_resetn</obj_property>
+         <obj_property name="ObjectShortName">axis_resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tkeep" type="array">
+         <obj_property name="ElementShortName">s_axis_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tuser" type="array">
+         <obj_property name="ElementShortName">s_axis_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tready" type="logic">
+         <obj_property name="ElementShortName">s_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/s_axis_tlast" type="logic">
+         <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_0_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_0_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_0_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_0_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_0_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_0_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_1_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_1_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_1_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_1_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_1_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_1_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_1_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_1_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_2_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_2_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_2_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_2_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_2_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_2_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_2_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_2_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_3_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_3_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_3_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_3_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_3_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_3_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_3_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_3_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_4_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_4_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_4_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_4_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_4_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_4_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_4_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_4_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_5_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_5_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_5_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_5_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_5_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_5_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_5_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_5_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_6_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_6_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_6_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_6_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_6_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_6_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_6_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_6_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_0_7_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_0_7_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_0_7_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_7_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_7_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_0_7_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_0_7_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_0_7_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_0_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_0_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_0_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_0_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_0_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_0_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_1_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_1_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_1_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_1_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_1_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_1_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_1_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_1_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_2_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_2_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_2_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_2_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_2_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_2_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_2_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_2_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_3_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_3_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_3_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_3_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_3_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_3_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_3_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_3_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_4_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_4_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_4_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_4_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_4_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_4_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_4_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_4_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_5_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_5_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_5_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_5_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_5_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_5_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_5_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_5_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_6_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_6_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_6_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_6_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_6_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_6_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_6_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_6_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_1_7_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_1_7_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_1_7_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_7_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_7_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_1_7_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_1_7_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_1_7_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_0_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_0_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_0_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_0_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_0_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_0_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_1_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_1_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_1_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_1_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_1_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_1_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_1_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_1_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_2_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_2_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_2_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_2_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_2_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_2_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_2_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_2_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_3_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_3_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_3_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_3_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_3_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_3_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_3_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_3_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_4_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_4_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_4_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_4_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_4_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_4_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_4_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_4_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_5_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_5_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_5_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_5_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_5_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_5_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_5_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_5_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_6_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_6_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_6_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_6_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_6_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_6_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_6_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_6_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_2_7_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_2_7_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_2_7_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_7_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_7_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_2_7_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_2_7_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_2_7_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_0_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_0_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_0_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_0_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_0_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_0_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_1_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_1_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_1_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_1_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_1_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_1_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_1_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_1_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_2_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_2_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_2_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_2_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_2_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_2_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_2_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_2_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_3_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_3_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_3_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_3_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_3_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_3_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_3_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_3_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_4_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_4_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_4_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_4_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_4_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_4_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_4_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_4_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_5_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_5_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_5_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_5_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_5_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_5_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_5_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_5_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_6_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_6_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_6_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_6_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_6_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_6_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_6_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_6_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_3_7_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_3_7_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_3_7_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_7_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_7_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_3_7_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_3_7_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_3_7_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_cpu_tdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tkeep" type="array">
+         <obj_property name="ElementShortName">m_axis_cpu_tkeep[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tkeep[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tuser" type="array">
+         <obj_property name="ElementShortName">m_axis_cpu_tuser[127:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tuser[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_cpu_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_cpu_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/m_axis_cpu_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_cpu_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_cpu_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytes_stored" type="array">
+         <obj_property name="ElementShortName">bytes_stored[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytes_stored[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pkt_stored" type="array">
+         <obj_property name="ElementShortName">pkt_stored[16:0]</obj_property>
+         <obj_property name="ObjectShortName">pkt_stored[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytes_dropped" type="array">
+         <obj_property name="ElementShortName">bytes_dropped[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytes_dropped[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pkt_dropped" type="array">
+         <obj_property name="ElementShortName">pkt_dropped[16:0]</obj_property>
+         <obj_property name="ObjectShortName">pkt_dropped[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/nearly_full" type="array">
+         <obj_property name="ElementShortName">nearly_full[16:0]</obj_property>
+         <obj_property name="ObjectShortName">nearly_full[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/nearly_full_fifo" type="array">
+         <obj_property name="ElementShortName">nearly_full_fifo[16:0]</obj_property>
+         <obj_property name="ObjectShortName">nearly_full_fifo[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/full_fifo" type="array">
+         <obj_property name="ElementShortName">full_fifo[16:0]</obj_property>
+         <obj_property name="ObjectShortName">full_fifo[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/empty" type="array">
+         <obj_property name="ElementShortName">empty[16:0]</obj_property>
+         <obj_property name="ObjectShortName">empty[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_nearly_full" type="array">
+         <obj_property name="ElementShortName">metadata_nearly_full[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_nearly_full[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_nearly_full_fifo" type="array">
+         <obj_property name="ElementShortName">metadata_nearly_full_fifo[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_nearly_full_fifo[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_full_fifo" type="array">
+         <obj_property name="ElementShortName">metadata_full_fifo[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_full_fifo[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_empty" type="array">
+         <obj_property name="ElementShortName">metadata_empty[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_empty[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/fifo_out_tuser" type="array">
+         <obj_property name="ElementShortName">fifo_out_tuser[16:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_tuser[16:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/fifo_out_tdata" type="array">
+         <obj_property name="ElementShortName">fifo_out_tdata[16:0][255:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_tdata[16:0][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/fifo_out_tkeep" type="array">
+         <obj_property name="ElementShortName">fifo_out_tkeep[16:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_tkeep[16:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/fifo_out_tlast" type="array">
+         <obj_property name="ElementShortName">fifo_out_tlast[16:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_tlast[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/rd_en" type="array">
+         <obj_property name="ElementShortName">rd_en[16:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_en[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/wr_en" type="array">
+         <obj_property name="ElementShortName">wr_en[16:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_en[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_rd_en" type="array">
+         <obj_property name="ElementShortName">metadata_rd_en[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_rd_en[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_wr_en" type="array">
+         <obj_property name="ElementShortName">metadata_wr_en[16:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_wr_en[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/cur_queue" type="array">
+         <obj_property name="ElementShortName">cur_queue[16:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_queue[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/cur_queue_next" type="array">
+         <obj_property name="ElementShortName">cur_queue_next[16:0]</obj_property>
+         <obj_property name="ObjectShortName">cur_queue_next[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/oq_orig" type="array">
+         <obj_property name="ElementShortName">oq_orig[4:0]</obj_property>
+         <obj_property name="ObjectShortName">oq_orig[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/oq" type="array">
+         <obj_property name="ElementShortName">oq[16:0]</obj_property>
+         <obj_property name="ObjectShortName">oq[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/state_next" type="array">
+         <obj_property name="ElementShortName">state_next[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_state" type="array">
+         <obj_property name="ElementShortName">metadata_state[16:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_state[16:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/metadata_state_next" type="array">
+         <obj_property name="ElementShortName">metadata_state_next[16:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">metadata_state_next[16:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pkt_stored_next" type="array">
+         <obj_property name="ElementShortName">pkt_stored_next[16:0]</obj_property>
+         <obj_property name="ObjectShortName">pkt_stored_next[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytes_stored_next" type="array">
+         <obj_property name="ElementShortName">bytes_stored_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytes_stored_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pkt_dropped_next" type="array">
+         <obj_property name="ElementShortName">pkt_dropped_next[16:0]</obj_property>
+         <obj_property name="ObjectShortName">pkt_dropped_next[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytes_dropped_next" type="array">
+         <obj_property name="ElementShortName">bytes_dropped_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytes_dropped_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pkt_removed" type="array">
+         <obj_property name="ElementShortName">pkt_removed[16:0]</obj_property>
+         <obj_property name="ObjectShortName">pkt_removed[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytes_removed" type="array">
+         <obj_property name="ElementShortName">bytes_removed[16:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytes_removed[16:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/id_reg" type="array">
+         <obj_property name="ElementShortName">id_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/version_reg" type="array">
+         <obj_property name="ElementShortName">version_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">version_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/reset_reg" type="array">
+         <obj_property name="ElementShortName">reset_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">reset_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/ip2cpu_flip_reg" type="array">
+         <obj_property name="ElementShortName">ip2cpu_flip_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip2cpu_flip_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/cpu2ip_flip_reg" type="array">
+         <obj_property name="ElementShortName">cpu2ip_flip_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu2ip_flip_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktin_reg" type="array">
+         <obj_property name="ElementShortName">pktin_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pktin_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktin_reg_clear" type="logic">
+         <obj_property name="ElementShortName">pktin_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">pktin_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktout_reg" type="array">
+         <obj_property name="ElementShortName">pktout_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pktout_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktout_reg_clear" type="logic">
+         <obj_property name="ElementShortName">pktout_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">pktout_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/ip2cpu_debug_reg" type="array">
+         <obj_property name="ElementShortName">ip2cpu_debug_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ip2cpu_debug_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/cpu2ip_debug_reg" type="array">
+         <obj_property name="ElementShortName">cpu2ip_debug_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu2ip_debug_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktstoredport0_reg" type="array">
+         <obj_property name="ElementShortName">pktstoredport0_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pktstoredport0_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktstoredport0_reg_clear" type="logic">
+         <obj_property name="ElementShortName">pktstoredport0_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">pktstoredport0_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytesstoredport0_reg" type="array">
+         <obj_property name="ElementShortName">bytesstoredport0_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytesstoredport0_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytesstoredport0_reg_clear" type="logic">
+         <obj_property name="ElementShortName">bytesstoredport0_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">bytesstoredport0_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktremovedport0_reg" type="array">
+         <obj_property name="ElementShortName">pktremovedport0_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pktremovedport0_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pktremovedport0_reg_clear" type="logic">
+         <obj_property name="ElementShortName">pktremovedport0_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">pktremovedport0_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytesremovedport0_reg" type="array">
+         <obj_property name="ElementShortName">bytesremovedport0_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bytesremovedport0_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/bytesremovedport0_reg_clear" type="logic">
+         <obj_property name="ElementShortName">bytesremovedport0_reg_clear</obj_property>
+         <obj_property name="ObjectShortName">bytesremovedport0_reg_clear</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/clear_counters" type="logic">
+         <obj_property name="ElementShortName">clear_counters</obj_property>
+         <obj_property name="ObjectShortName">clear_counters</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/reset_registers" type="logic">
+         <obj_property name="ElementShortName">reset_registers</obj_property>
+         <obj_property name="ObjectShortName">reset_registers</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/tready" type="logic">
+         <obj_property name="ElementShortName">tready</obj_property>
+         <obj_property name="ObjectShortName">tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/oq_ports" type="array">
+         <obj_property name="ElementShortName">oq_ports[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">oq_ports[0:3][3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/ether_type" type="array">
+         <obj_property name="ElementShortName">ether_type[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ether_type[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pri" type="array">
+         <obj_property name="ElementShortName">pri[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pri[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/pri_queue_table" type="array">
+         <obj_property name="ElementShortName">pri_queue_table[0:7][2:0]</obj_property>
+         <obj_property name="ObjectShortName">pri_queue_table[0:7][2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tdata" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tdata[0:3][3:0][255:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tdata[0:3][3:0][255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tkeep" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tkeep[0:3][3:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tkeep[0:3][3:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tuser" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tuser[0:3][3:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tuser[0:3][3:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tvalid" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tvalid[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tvalid[0:3][3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tlast" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tlast[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tlast[0:3][3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tready" type="array">
+         <obj_property name="ElementShortName">int_m_axis_tready[0:3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">int_m_axis_tready[0:3][3:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tready[0]" type="array">
+            <obj_property name="ElementShortName">[0][3:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][3:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tready[1]" type="array">
+            <obj_property name="ElementShortName">[1][3:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][3:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tready[2]" type="array">
+            <obj_property name="ElementShortName">[2][3:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/datapath_tb/dut/bram_output_queues_1/int_m_axis_tready[3]" type="array">
+            <obj_property name="ElementShortName">[3][3:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][3:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

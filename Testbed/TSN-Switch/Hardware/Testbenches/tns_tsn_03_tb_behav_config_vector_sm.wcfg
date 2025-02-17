@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tns_tsn_03_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="184223500fs"></ZoomStartTime>
+      <ZoomEndTime time="184339301fs"></ZoomEndTime>
+      <Cursor1Time time="184320000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="342"></NameColumnWidth>
+      <ValueColumnWidth column_width="204"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /gtx_clk" type="logic">
+      <obj_property name="ElementShortName">gtx_clk</obj_property>
+      <obj_property name="ObjectShortName">gtx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /gtx_resetn" type="logic">
+      <obj_property name="ElementShortName">gtx_resetn</obj_property>
+      <obj_property name="ObjectShortName">gtx_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /mac_speed" type="array">
+      <obj_property name="ElementShortName">mac_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /update_speed" type="logic">
+      <obj_property name="ElementShortName">update_speed</obj_property>
+      <obj_property name="ObjectShortName">update_speed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_configuration_vector" type="array">
+      <obj_property name="ElementShortName">rx_configuration_vector[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_configuration_vector[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_configuration_vector" type="array">
+      <obj_property name="ElementShortName">tx_configuration_vector[79:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_configuration_vector[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /control_status" type="array">
+      <obj_property name="ElementShortName">control_status[1:0]</obj_property>
+      <obj_property name="ObjectShortName">control_status[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /update_speed_reg" type="logic">
+      <obj_property name="ElementShortName">update_speed_reg</obj_property>
+      <obj_property name="ObjectShortName">update_speed_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /update_speed_reg2" type="logic">
+      <obj_property name="ElementShortName">update_speed_reg2</obj_property>
+      <obj_property name="ObjectShortName">update_speed_reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /update_speed_sync" type="logic">
+      <obj_property name="ElementShortName">update_speed_sync</obj_property>
+      <obj_property name="ObjectShortName">update_speed_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /count_shift" type="array">
+      <obj_property name="ElementShortName">count_shift[20:0]</obj_property>
+      <obj_property name="ObjectShortName">count_shift[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_reset" type="logic">
+      <obj_property name="ElementShortName">tx_reset</obj_property>
+      <obj_property name="ObjectShortName">tx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_enable" type="logic">
+      <obj_property name="ElementShortName">tx_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_vlan_enable" type="logic">
+      <obj_property name="ElementShortName">tx_vlan_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_vlan_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_fcs_enable" type="logic">
+      <obj_property name="ElementShortName">tx_fcs_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_fcs_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_jumbo_enable" type="logic">
+      <obj_property name="ElementShortName">tx_jumbo_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_jumbo_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_fc_enable" type="logic">
+      <obj_property name="ElementShortName">tx_fc_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_fc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_hd_enable" type="logic">
+      <obj_property name="ElementShortName">tx_hd_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_hd_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_ifg_adjust" type="logic">
+      <obj_property name="ElementShortName">tx_ifg_adjust</obj_property>
+      <obj_property name="ObjectShortName">tx_ifg_adjust</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_speed" type="array">
+      <obj_property name="ElementShortName">tx_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_max_frame_enable" type="logic">
+      <obj_property name="ElementShortName">tx_max_frame_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_max_frame_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_max_frame_length" type="array">
+      <obj_property name="ElementShortName">tx_max_frame_length[14:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_max_frame_length[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /tx_pause_addr" type="array">
+      <obj_property name="ElementShortName">tx_pause_addr[47:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_pause_addr[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_reset" type="logic">
+      <obj_property name="ElementShortName">rx_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_enable" type="logic">
+      <obj_property name="ElementShortName">rx_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_vlan_enable" type="logic">
+      <obj_property name="ElementShortName">rx_vlan_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_vlan_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_fcs_enable" type="logic">
+      <obj_property name="ElementShortName">rx_fcs_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_fcs_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_jumbo_enable" type="logic">
+      <obj_property name="ElementShortName">rx_jumbo_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_jumbo_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_fc_enable" type="logic">
+      <obj_property name="ElementShortName">rx_fc_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_fc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_hd_enable" type="logic">
+      <obj_property name="ElementShortName">rx_hd_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_hd_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_len_type_chk_disable" type="logic">
+      <obj_property name="ElementShortName">rx_len_type_chk_disable</obj_property>
+      <obj_property name="ObjectShortName">rx_len_type_chk_disable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_control_len_chk_dis" type="logic">
+      <obj_property name="ElementShortName">rx_control_len_chk_dis</obj_property>
+      <obj_property name="ObjectShortName">rx_control_len_chk_dis</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_promiscuous" type="logic">
+      <obj_property name="ElementShortName">rx_promiscuous</obj_property>
+      <obj_property name="ObjectShortName">rx_promiscuous</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_speed" type="array">
+      <obj_property name="ElementShortName">rx_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_max_frame_enable" type="logic">
+      <obj_property name="ElementShortName">rx_max_frame_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_max_frame_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_max_frame_length" type="array">
+      <obj_property name="ElementShortName">rx_max_frame_length[14:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_max_frame_length[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /rx_pause_addr" type="array">
+      <obj_property name="ElementShortName">rx_pause_addr[47:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_pause_addr[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /gtx_reset" type="logic">
+      <obj_property name="ElementShortName">gtx_reset</obj_property>
+      <obj_property name="ObjectShortName">gtx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /RUN_HALF_DUPLEX" type="array">
+      <obj_property name="ElementShortName">RUN_HALF_DUPLEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RUN_HALF_DUPLEX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /STARTUP" type="array">
+      <obj_property name="ElementShortName">STARTUP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STARTUP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /RESET_MAC" type="array">
+      <obj_property name="ElementShortName">RESET_MAC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESET_MAC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/\genblk2[0].config_vector_controller /CHECK_SPEED" type="array">
+      <obj_property name="ElementShortName">CHECK_SPEED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CHECK_SPEED[31:0]</obj_property>
+   </wvobject>
+</wave_config>

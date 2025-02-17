@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"type": "switch",
+			"id": 0,
+			"mac": "00:00:00:00:02:01",
+			"ptp_ports": [0,0,0,0,0],
+            "externalPortConfigurationEnabled": 1,
+            "system_identity": {
+                "priority1": 254,
+                "clockClass": 248,
+                "clockAccuracy": 254,
+                "offsetScaledLogVariance": 17258,
+                "priority2": 247,
+                "clock_identity": [0,0,0,0,0,0,0,1]
+            }
+		}
+	],
+	"links": [
+	],
+	"fwd": [
+    ]
+}

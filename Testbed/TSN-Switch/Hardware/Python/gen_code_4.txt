@@ -1,0 +1,224 @@
+assign m_axis_0_0_tdata     = fifo_out_tdata[0];
+assign m_axis_0_0_tkeep     = fifo_out_tkeep[0];
+assign m_axis_0_0_tuser     = fifo_out_tuser[0];
+assign m_axis_0_0_tlast     = fifo_out_tlast[0];
+assign m_axis_0_0_tvalid    = ~empty[0];
+assign rd_en[0]             = m_axis_0_0_tready & ~empty[0];
+
+assign m_axis_0_1_tdata     = fifo_out_tdata[1];
+assign m_axis_0_1_tkeep     = fifo_out_tkeep[1];
+assign m_axis_0_1_tuser     = fifo_out_tuser[1];
+assign m_axis_0_1_tlast     = fifo_out_tlast[1];
+assign m_axis_0_1_tvalid    = ~empty[1];
+assign rd_en[1]             = m_axis_0_1_tready & ~empty[1];
+
+assign m_axis_0_2_tdata     = fifo_out_tdata[2];
+assign m_axis_0_2_tkeep     = fifo_out_tkeep[2];
+assign m_axis_0_2_tuser     = fifo_out_tuser[2];
+assign m_axis_0_2_tlast     = fifo_out_tlast[2];
+assign m_axis_0_2_tvalid    = ~empty[2];
+assign rd_en[2]             = m_axis_0_2_tready & ~empty[2];
+
+assign m_axis_0_3_tdata     = fifo_out_tdata[3];
+assign m_axis_0_3_tkeep     = fifo_out_tkeep[3];
+assign m_axis_0_3_tuser     = fifo_out_tuser[3];
+assign m_axis_0_3_tlast     = fifo_out_tlast[3];
+assign m_axis_0_3_tvalid    = ~empty[3];
+assign rd_en[3]             = m_axis_0_3_tready & ~empty[3];
+
+assign m_axis_0_4_tdata     = fifo_out_tdata[4];
+assign m_axis_0_4_tkeep     = fifo_out_tkeep[4];
+assign m_axis_0_4_tuser     = fifo_out_tuser[4];
+assign m_axis_0_4_tlast     = fifo_out_tlast[4];
+assign m_axis_0_4_tvalid    = ~empty[4];
+assign rd_en[4]             = m_axis_0_4_tready & ~empty[4];
+
+assign m_axis_0_5_tdata     = fifo_out_tdata[5];
+assign m_axis_0_5_tkeep     = fifo_out_tkeep[5];
+assign m_axis_0_5_tuser     = fifo_out_tuser[5];
+assign m_axis_0_5_tlast     = fifo_out_tlast[5];
+assign m_axis_0_5_tvalid    = ~empty[5];
+assign rd_en[5]             = m_axis_0_5_tready & ~empty[5];
+
+assign m_axis_0_6_tdata     = fifo_out_tdata[6];
+assign m_axis_0_6_tkeep     = fifo_out_tkeep[6];
+assign m_axis_0_6_tuser     = fifo_out_tuser[6];
+assign m_axis_0_6_tlast     = fifo_out_tlast[6];
+assign m_axis_0_6_tvalid    = ~empty[6];
+assign rd_en[6]             = m_axis_0_6_tready & ~empty[6];
+
+assign m_axis_0_7_tdata     = fifo_out_tdata[7];
+assign m_axis_0_7_tkeep     = fifo_out_tkeep[7];
+assign m_axis_0_7_tuser     = fifo_out_tuser[7];
+assign m_axis_0_7_tlast     = fifo_out_tlast[7];
+assign m_axis_0_7_tvalid    = ~empty[7];
+assign rd_en[7]             = m_axis_0_7_tready & ~empty[7];
+
+assign m_axis_1_0_tdata     = fifo_out_tdata[8];
+assign m_axis_1_0_tkeep     = fifo_out_tkeep[8];
+assign m_axis_1_0_tuser     = fifo_out_tuser[8];
+assign m_axis_1_0_tlast     = fifo_out_tlast[8];
+assign m_axis_1_0_tvalid    = ~empty[8];
+assign rd_en[8]             = m_axis_1_0_tready & ~empty[8];
+
+assign m_axis_1_1_tdata     = fifo_out_tdata[9];
+assign m_axis_1_1_tkeep     = fifo_out_tkeep[9];
+assign m_axis_1_1_tuser     = fifo_out_tuser[9];
+assign m_axis_1_1_tlast     = fifo_out_tlast[9];
+assign m_axis_1_1_tvalid    = ~empty[9];
+assign rd_en[9]             = m_axis_1_1_tready & ~empty[9];
+
+assign m_axis_1_2_tdata     = fifo_out_tdata[10];
+assign m_axis_1_2_tkeep     = fifo_out_tkeep[10];
+assign m_axis_1_2_tuser     = fifo_out_tuser[10];
+assign m_axis_1_2_tlast     = fifo_out_tlast[10];
+assign m_axis_1_2_tvalid    = ~empty[10];
+assign rd_en[10]             = m_axis_1_2_tready & ~empty[10];
+
+assign m_axis_1_3_tdata     = fifo_out_tdata[11];
+assign m_axis_1_3_tkeep     = fifo_out_tkeep[11];
+assign m_axis_1_3_tuser     = fifo_out_tuser[11];
+assign m_axis_1_3_tlast     = fifo_out_tlast[11];
+assign m_axis_1_3_tvalid    = ~empty[11];
+assign rd_en[11]             = m_axis_1_3_tready & ~empty[11];
+
+assign m_axis_1_4_tdata     = fifo_out_tdata[12];
+assign m_axis_1_4_tkeep     = fifo_out_tkeep[12];
+assign m_axis_1_4_tuser     = fifo_out_tuser[12];
+assign m_axis_1_4_tlast     = fifo_out_tlast[12];
+assign m_axis_1_4_tvalid    = ~empty[12];
+assign rd_en[12]             = m_axis_1_4_tready & ~empty[12];
+
+assign m_axis_1_5_tdata     = fifo_out_tdata[13];
+assign m_axis_1_5_tkeep     = fifo_out_tkeep[13];
+assign m_axis_1_5_tuser     = fifo_out_tuser[13];
+assign m_axis_1_5_tlast     = fifo_out_tlast[13];
+assign m_axis_1_5_tvalid    = ~empty[13];
+assign rd_en[13]             = m_axis_1_5_tready & ~empty[13];
+
+assign m_axis_1_6_tdata     = fifo_out_tdata[14];
+assign m_axis_1_6_tkeep     = fifo_out_tkeep[14];
+assign m_axis_1_6_tuser     = fifo_out_tuser[14];
+assign m_axis_1_6_tlast     = fifo_out_tlast[14];
+assign m_axis_1_6_tvalid    = ~empty[14];
+assign rd_en[14]             = m_axis_1_6_tready & ~empty[14];
+
+assign m_axis_1_7_tdata     = fifo_out_tdata[15];
+assign m_axis_1_7_tkeep     = fifo_out_tkeep[15];
+assign m_axis_1_7_tuser     = fifo_out_tuser[15];
+assign m_axis_1_7_tlast     = fifo_out_tlast[15];
+assign m_axis_1_7_tvalid    = ~empty[15];
+assign rd_en[15]             = m_axis_1_7_tready & ~empty[15];
+
+assign m_axis_2_0_tdata     = fifo_out_tdata[16];
+assign m_axis_2_0_tkeep     = fifo_out_tkeep[16];
+assign m_axis_2_0_tuser     = fifo_out_tuser[16];
+assign m_axis_2_0_tlast     = fifo_out_tlast[16];
+assign m_axis_2_0_tvalid    = ~empty[16];
+assign rd_en[16]             = m_axis_2_0_tready & ~empty[16];
+
+assign m_axis_2_1_tdata     = fifo_out_tdata[17];
+assign m_axis_2_1_tkeep     = fifo_out_tkeep[17];
+assign m_axis_2_1_tuser     = fifo_out_tuser[17];
+assign m_axis_2_1_tlast     = fifo_out_tlast[17];
+assign m_axis_2_1_tvalid    = ~empty[17];
+assign rd_en[17]             = m_axis_2_1_tready & ~empty[17];
+
+assign m_axis_2_2_tdata     = fifo_out_tdata[18];
+assign m_axis_2_2_tkeep     = fifo_out_tkeep[18];
+assign m_axis_2_2_tuser     = fifo_out_tuser[18];
+assign m_axis_2_2_tlast     = fifo_out_tlast[18];
+assign m_axis_2_2_tvalid    = ~empty[18];
+assign rd_en[18]             = m_axis_2_2_tready & ~empty[18];
+
+assign m_axis_2_3_tdata     = fifo_out_tdata[19];
+assign m_axis_2_3_tkeep     = fifo_out_tkeep[19];
+assign m_axis_2_3_tuser     = fifo_out_tuser[19];
+assign m_axis_2_3_tlast     = fifo_out_tlast[19];
+assign m_axis_2_3_tvalid    = ~empty[19];
+assign rd_en[19]             = m_axis_2_3_tready & ~empty[19];
+
+assign m_axis_2_4_tdata     = fifo_out_tdata[20];
+assign m_axis_2_4_tkeep     = fifo_out_tkeep[20];
+assign m_axis_2_4_tuser     = fifo_out_tuser[20];
+assign m_axis_2_4_tlast     = fifo_out_tlast[20];
+assign m_axis_2_4_tvalid    = ~empty[20];
+assign rd_en[20]             = m_axis_2_4_tready & ~empty[20];
+
+assign m_axis_2_5_tdata     = fifo_out_tdata[21];
+assign m_axis_2_5_tkeep     = fifo_out_tkeep[21];
+assign m_axis_2_5_tuser     = fifo_out_tuser[21];
+assign m_axis_2_5_tlast     = fifo_out_tlast[21];
+assign m_axis_2_5_tvalid    = ~empty[21];
+assign rd_en[21]             = m_axis_2_5_tready & ~empty[21];
+
+assign m_axis_2_6_tdata     = fifo_out_tdata[22];
+assign m_axis_2_6_tkeep     = fifo_out_tkeep[22];
+assign m_axis_2_6_tuser     = fifo_out_tuser[22];
+assign m_axis_2_6_tlast     = fifo_out_tlast[22];
+assign m_axis_2_6_tvalid    = ~empty[22];
+assign rd_en[22]             = m_axis_2_6_tready & ~empty[22];
+
+assign m_axis_2_7_tdata     = fifo_out_tdata[23];
+assign m_axis_2_7_tkeep     = fifo_out_tkeep[23];
+assign m_axis_2_7_tuser     = fifo_out_tuser[23];
+assign m_axis_2_7_tlast     = fifo_out_tlast[23];
+assign m_axis_2_7_tvalid    = ~empty[23];
+assign rd_en[23]             = m_axis_2_7_tready & ~empty[23];
+
+assign m_axis_3_0_tdata     = fifo_out_tdata[24];
+assign m_axis_3_0_tkeep     = fifo_out_tkeep[24];
+assign m_axis_3_0_tuser     = fifo_out_tuser[24];
+assign m_axis_3_0_tlast     = fifo_out_tlast[24];
+assign m_axis_3_0_tvalid    = ~empty[24];
+assign rd_en[24]             = m_axis_3_0_tready & ~empty[24];
+
+assign m_axis_3_1_tdata     = fifo_out_tdata[25];
+assign m_axis_3_1_tkeep     = fifo_out_tkeep[25];
+assign m_axis_3_1_tuser     = fifo_out_tuser[25];
+assign m_axis_3_1_tlast     = fifo_out_tlast[25];
+assign m_axis_3_1_tvalid    = ~empty[25];
+assign rd_en[25]             = m_axis_3_1_tready & ~empty[25];
+
+assign m_axis_3_2_tdata     = fifo_out_tdata[26];
+assign m_axis_3_2_tkeep     = fifo_out_tkeep[26];
+assign m_axis_3_2_tuser     = fifo_out_tuser[26];
+assign m_axis_3_2_tlast     = fifo_out_tlast[26];
+assign m_axis_3_2_tvalid    = ~empty[26];
+assign rd_en[26]             = m_axis_3_2_tready & ~empty[26];
+
+assign m_axis_3_3_tdata     = fifo_out_tdata[27];
+assign m_axis_3_3_tkeep     = fifo_out_tkeep[27];
+assign m_axis_3_3_tuser     = fifo_out_tuser[27];
+assign m_axis_3_3_tlast     = fifo_out_tlast[27];
+assign m_axis_3_3_tvalid    = ~empty[27];
+assign rd_en[27]             = m_axis_3_3_tready & ~empty[27];
+
+assign m_axis_3_4_tdata     = fifo_out_tdata[28];
+assign m_axis_3_4_tkeep     = fifo_out_tkeep[28];
+assign m_axis_3_4_tuser     = fifo_out_tuser[28];
+assign m_axis_3_4_tlast     = fifo_out_tlast[28];
+assign m_axis_3_4_tvalid    = ~empty[28];
+assign rd_en[28]             = m_axis_3_4_tready & ~empty[28];
+
+assign m_axis_3_5_tdata     = fifo_out_tdata[29];
+assign m_axis_3_5_tkeep     = fifo_out_tkeep[29];
+assign m_axis_3_5_tuser     = fifo_out_tuser[29];
+assign m_axis_3_5_tlast     = fifo_out_tlast[29];
+assign m_axis_3_5_tvalid    = ~empty[29];
+assign rd_en[29]             = m_axis_3_5_tready & ~empty[29];
+
+assign m_axis_3_6_tdata     = fifo_out_tdata[30];
+assign m_axis_3_6_tkeep     = fifo_out_tkeep[30];
+assign m_axis_3_6_tuser     = fifo_out_tuser[30];
+assign m_axis_3_6_tlast     = fifo_out_tlast[30];
+assign m_axis_3_6_tvalid    = ~empty[30];
+assign rd_en[30]             = m_axis_3_6_tready & ~empty[30];
+
+assign m_axis_3_7_tdata     = fifo_out_tdata[31];
+assign m_axis_3_7_tkeep     = fifo_out_tkeep[31];
+assign m_axis_3_7_tuser     = fifo_out_tuser[31];
+assign m_axis_3_7_tlast     = fifo_out_tlast[31];
+assign m_axis_3_7_tvalid    = ~empty[31];
+assign rd_en[31]             = m_axis_3_7_tready & ~empty[31];
+

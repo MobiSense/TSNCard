@@ -1,0 +1,13 @@
+Config0.*
+Res0.*
+glue_generator
+LOCATED_VARIABLES.h
+POUS.*
+openplc
+*.csv
+*~
+hardware_layer.cpp
+config.json
+schedule.json
+*.log
+

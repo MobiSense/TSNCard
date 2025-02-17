@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tns_tsn_03_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="184271750fs"></ZoomStartTime>
+      <ZoomEndTime time="184329651fs"></ZoomEndTime>
+      <Cursor1Time time="184320000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="342"></NameColumnWidth>
+      <ValueColumnWidth column_width="204"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/gtx_clk" type="logic">
+      <obj_property name="ElementShortName">gtx_clk</obj_property>
+      <obj_property name="ObjectShortName">gtx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/gtx_clk_out" type="logic">
+      <obj_property name="ElementShortName">gtx_clk_out</obj_property>
+      <obj_property name="ObjectShortName">gtx_clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/gtx_clk90_out" type="logic">
+      <obj_property name="ElementShortName">gtx_clk90_out</obj_property>
+      <obj_property name="ObjectShortName">gtx_clk90_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/refclk" type="logic">
+      <obj_property name="ElementShortName">refclk</obj_property>
+      <obj_property name="ObjectShortName">refclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/glbl_rstn" type="logic">
+      <obj_property name="ElementShortName">glbl_rstn</obj_property>
+      <obj_property name="ObjectShortName">glbl_rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_axi_rstn" type="logic">
+      <obj_property name="ElementShortName">rx_axi_rstn</obj_property>
+      <obj_property name="ObjectShortName">rx_axi_rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axi_rstn" type="logic">
+      <obj_property name="ElementShortName">tx_axi_rstn</obj_property>
+      <obj_property name="ObjectShortName">tx_axi_rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_enable" type="logic">
+      <obj_property name="ElementShortName">rx_enable</obj_property>
+      <obj_property name="ObjectShortName">rx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_statistics_vector" type="array">
+      <obj_property name="ElementShortName">rx_statistics_vector[27:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_statistics_vector[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_statistics_valid" type="logic">
+      <obj_property name="ElementShortName">rx_statistics_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_statistics_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_mac_aclk" type="logic">
+      <obj_property name="ElementShortName">rx_mac_aclk</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_reset" type="logic">
+      <obj_property name="ElementShortName">rx_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_axis_mac_tdata" type="array">
+      <obj_property name="ElementShortName">rx_axis_mac_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_axis_mac_tvalid" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tvalid</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_axis_mac_tlast" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tlast</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_axis_mac_tuser" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tuser</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_enable" type="logic">
+      <obj_property name="ElementShortName">tx_enable</obj_property>
+      <obj_property name="ObjectShortName">tx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_ifg_delay" type="array">
+      <obj_property name="ElementShortName">tx_ifg_delay[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ifg_delay[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_statistics_vector" type="array">
+      <obj_property name="ElementShortName">tx_statistics_vector[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_statistics_vector[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_statistics_valid" type="logic">
+      <obj_property name="ElementShortName">tx_statistics_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_statistics_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_mac_aclk" type="logic">
+      <obj_property name="ElementShortName">tx_mac_aclk</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_reset" type="logic">
+      <obj_property name="ElementShortName">tx_reset</obj_property>
+      <obj_property name="ObjectShortName">tx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axis_mac_tdata" type="array">
+      <obj_property name="ElementShortName">tx_axis_mac_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axis_mac_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axis_mac_tlast" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tlast</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axis_mac_tuser" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tuser</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_axis_mac_tready" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/pause_req" type="logic">
+      <obj_property name="ElementShortName">pause_req</obj_property>
+      <obj_property name="ObjectShortName">pause_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/pause_val" type="array">
+      <obj_property name="ElementShortName">pause_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pause_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/speedis100" type="logic">
+      <obj_property name="ElementShortName">speedis100</obj_property>
+      <obj_property name="ObjectShortName">speedis100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/speedis10100" type="logic">
+      <obj_property name="ElementShortName">speedis10100</obj_property>
+      <obj_property name="ObjectShortName">speedis10100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_txd" type="array">
+      <obj_property name="ElementShortName">rgmii_txd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_txd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_tx_ctl" type="logic">
+      <obj_property name="ElementShortName">rgmii_tx_ctl</obj_property>
+      <obj_property name="ObjectShortName">rgmii_tx_ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_txc" type="logic">
+      <obj_property name="ElementShortName">rgmii_txc</obj_property>
+      <obj_property name="ObjectShortName">rgmii_txc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_rxd" type="array">
+      <obj_property name="ElementShortName">rgmii_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_rx_ctl" type="logic">
+      <obj_property name="ElementShortName">rgmii_rx_ctl</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rx_ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rgmii_rxc" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/inband_link_status" type="logic">
+      <obj_property name="ElementShortName">inband_link_status</obj_property>
+      <obj_property name="ObjectShortName">inband_link_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/inband_clock_speed" type="array">
+      <obj_property name="ElementShortName">inband_clock_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">inband_clock_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/inband_duplex_status" type="logic">
+      <obj_property name="ElementShortName">inband_duplex_status</obj_property>
+      <obj_property name="ObjectShortName">inband_duplex_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/rx_configuration_vector" type="array">
+      <obj_property name="ElementShortName">rx_configuration_vector[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_configuration_vector[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/tri_mode_ethernet_mac_i/tx_configuration_vector" type="array">
+      <obj_property name="ElementShortName">tx_configuration_vector[79:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_configuration_vector[79:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tns_tsn_03_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1034213686fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="410"></NameColumnWidth>
+      <ValueColumnWidth column_width="199"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="185" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/wr_in" type="logic">
+      <obj_property name="ElementShortName">wr_in</obj_property>
+      <obj_property name="ObjectShortName">wr_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rd_in" type="logic">
+      <obj_property name="ElementShortName">rd_in</obj_property>
+      <obj_property name="ObjectShortName">rd_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/addr_in" type="array">
+      <obj_property name="ElementShortName">addr_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_clk_in" type="logic">
+      <obj_property name="ElementShortName">rtc_clk_in</obj_property>
+      <obj_property name="ObjectShortName">rtc_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_rst_out" type="logic">
+      <obj_property name="ElementShortName">rtc_rst_out</obj_property>
+      <obj_property name="ObjectShortName">rtc_rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ld_out" type="logic">
+      <obj_property name="ElementShortName">time_ld_out</obj_property>
+      <obj_property name="ObjectShortName">time_ld_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_ns_out" type="array">
+      <obj_property name="ElementShortName">time_reg_ns_out[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_ns_out[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_sec_out" type="array">
+      <obj_property name="ElementShortName">time_reg_sec_out[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_sec_out[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/period_ld_out" type="logic">
+      <obj_property name="ElementShortName">period_ld_out</obj_property>
+      <obj_property name="ObjectShortName">period_ld_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/period_out" type="array">
+      <obj_property name="ElementShortName">period_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">period_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adj_ld_out" type="logic">
+      <obj_property name="ElementShortName">adj_ld_out</obj_property>
+      <obj_property name="ObjectShortName">adj_ld_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adj_ld_data_out" type="array">
+      <obj_property name="ElementShortName">adj_ld_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adj_ld_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/period_adj_out" type="array">
+      <obj_property name="ElementShortName">period_adj_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">period_adj_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adj_ld_done_in" type="logic">
+      <obj_property name="ElementShortName">adj_ld_done_in</obj_property>
+      <obj_property name="ObjectShortName">adj_ld_done_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_ns_in" type="array">
+      <obj_property name="ElementShortName">time_reg_ns_in[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_ns_in[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_sec_in" type="array">
+      <obj_property name="ElementShortName">time_reg_sec_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_sec_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_rst_out" type="logic">
+      <obj_property name="ElementShortName">rx_q_rst_out</obj_property>
+      <obj_property name="ObjectShortName">rx_q_rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_rd_clk_out" type="logic">
+      <obj_property name="ElementShortName">rx_q_rd_clk_out</obj_property>
+      <obj_property name="ObjectShortName">rx_q_rd_clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_rd_en_out" type="logic">
+      <obj_property name="ElementShortName">rx_q_rd_en_out</obj_property>
+      <obj_property name="ObjectShortName">rx_q_rd_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_ptp_msgid_mask_out" type="array">
+      <obj_property name="ElementShortName">rx_q_ptp_msgid_mask_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_q_ptp_msgid_mask_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_stat_in" type="array">
+      <obj_property name="ElementShortName">rx_q_stat_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_q_stat_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_data_in" type="array">
+      <obj_property name="ElementShortName">rx_q_data_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_q_data_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_rst_out" type="logic">
+      <obj_property name="ElementShortName">tx_q_rst_out</obj_property>
+      <obj_property name="ObjectShortName">tx_q_rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_rd_clk_out" type="logic">
+      <obj_property name="ElementShortName">tx_q_rd_clk_out</obj_property>
+      <obj_property name="ObjectShortName">tx_q_rd_clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_rd_en_out" type="logic">
+      <obj_property name="ElementShortName">tx_q_rd_en_out</obj_property>
+      <obj_property name="ObjectShortName">tx_q_rd_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_ptp_msgid_mask_out" type="array">
+      <obj_property name="ElementShortName">tx_q_ptp_msgid_mask_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_q_ptp_msgid_mask_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_stat_in" type="array">
+      <obj_property name="ElementShortName">tx_q_stat_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_q_stat_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_data_in" type="array">
+      <obj_property name="ElementShortName">tx_q_data_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_q_data_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_00" type="logic">
+      <obj_property name="ElementShortName">cs_00</obj_property>
+      <obj_property name="ObjectShortName">cs_00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_04" type="logic">
+      <obj_property name="ElementShortName">cs_04</obj_property>
+      <obj_property name="ObjectShortName">cs_04</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_08" type="logic">
+      <obj_property name="ElementShortName">cs_08</obj_property>
+      <obj_property name="ObjectShortName">cs_08</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_0c" type="logic">
+      <obj_property name="ElementShortName">cs_0c</obj_property>
+      <obj_property name="ObjectShortName">cs_0c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_10" type="logic">
+      <obj_property name="ElementShortName">cs_10</obj_property>
+      <obj_property name="ObjectShortName">cs_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_14" type="logic">
+      <obj_property name="ElementShortName">cs_14</obj_property>
+      <obj_property name="ObjectShortName">cs_14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_18" type="logic">
+      <obj_property name="ElementShortName">cs_18</obj_property>
+      <obj_property name="ObjectShortName">cs_18</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_1c" type="logic">
+      <obj_property name="ElementShortName">cs_1c</obj_property>
+      <obj_property name="ObjectShortName">cs_1c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_20" type="logic">
+      <obj_property name="ElementShortName">cs_20</obj_property>
+      <obj_property name="ObjectShortName">cs_20</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_24" type="logic">
+      <obj_property name="ElementShortName">cs_24</obj_property>
+      <obj_property name="ObjectShortName">cs_24</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_28" type="logic">
+      <obj_property name="ElementShortName">cs_28</obj_property>
+      <obj_property name="ObjectShortName">cs_28</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_2c" type="logic">
+      <obj_property name="ElementShortName">cs_2c</obj_property>
+      <obj_property name="ObjectShortName">cs_2c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_30" type="logic">
+      <obj_property name="ElementShortName">cs_30</obj_property>
+      <obj_property name="ObjectShortName">cs_30</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_34" type="logic">
+      <obj_property name="ElementShortName">cs_34</obj_property>
+      <obj_property name="ObjectShortName">cs_34</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_38" type="logic">
+      <obj_property name="ElementShortName">cs_38</obj_property>
+      <obj_property name="ObjectShortName">cs_38</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_3c" type="logic">
+      <obj_property name="ElementShortName">cs_3c</obj_property>
+      <obj_property name="ObjectShortName">cs_3c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_40" type="logic">
+      <obj_property name="ElementShortName">cs_40</obj_property>
+      <obj_property name="ObjectShortName">cs_40</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_44" type="logic">
+      <obj_property name="ElementShortName">cs_44</obj_property>
+      <obj_property name="ObjectShortName">cs_44</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_48" type="logic">
+      <obj_property name="ElementShortName">cs_48</obj_property>
+      <obj_property name="ObjectShortName">cs_48</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_4c" type="logic">
+      <obj_property name="ElementShortName">cs_4c</obj_property>
+      <obj_property name="ObjectShortName">cs_4c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_50" type="logic">
+      <obj_property name="ElementShortName">cs_50</obj_property>
+      <obj_property name="ObjectShortName">cs_50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_54" type="logic">
+      <obj_property name="ElementShortName">cs_54</obj_property>
+      <obj_property name="ObjectShortName">cs_54</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_58" type="logic">
+      <obj_property name="ElementShortName">cs_58</obj_property>
+      <obj_property name="ObjectShortName">cs_58</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_5c" type="logic">
+      <obj_property name="ElementShortName">cs_5c</obj_property>
+      <obj_property name="ObjectShortName">cs_5c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_60" type="logic">
+      <obj_property name="ElementShortName">cs_60</obj_property>
+      <obj_property name="ObjectShortName">cs_60</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_64" type="logic">
+      <obj_property name="ElementShortName">cs_64</obj_property>
+      <obj_property name="ObjectShortName">cs_64</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_68" type="logic">
+      <obj_property name="ElementShortName">cs_68</obj_property>
+      <obj_property name="ObjectShortName">cs_68</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_6c" type="logic">
+      <obj_property name="ElementShortName">cs_6c</obj_property>
+      <obj_property name="ObjectShortName">cs_6c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_70" type="logic">
+      <obj_property name="ElementShortName">cs_70</obj_property>
+      <obj_property name="ObjectShortName">cs_70</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_74" type="logic">
+      <obj_property name="ElementShortName">cs_74</obj_property>
+      <obj_property name="ObjectShortName">cs_74</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_78" type="logic">
+      <obj_property name="ElementShortName">cs_78</obj_property>
+      <obj_property name="ObjectShortName">cs_78</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/cs_7c" type="logic">
+      <obj_property name="ElementShortName">cs_7c</obj_property>
+      <obj_property name="ObjectShortName">cs_7c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_00" type="array">
+      <obj_property name="ElementShortName">reg_00[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_00[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_04" type="array">
+      <obj_property name="ElementShortName">reg_04[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_04[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_08" type="array">
+      <obj_property name="ElementShortName">reg_08[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_08[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_0c" type="array">
+      <obj_property name="ElementShortName">reg_0c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_0c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_10" type="array">
+      <obj_property name="ElementShortName">reg_10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_14" type="array">
+      <obj_property name="ElementShortName">reg_14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_18" type="array">
+      <obj_property name="ElementShortName">reg_18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_18[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_1c" type="array">
+      <obj_property name="ElementShortName">reg_1c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_1c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_20" type="array">
+      <obj_property name="ElementShortName">reg_20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_20[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_24" type="array">
+      <obj_property name="ElementShortName">reg_24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_24[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_28" type="array">
+      <obj_property name="ElementShortName">reg_28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_28[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_2c" type="array">
+      <obj_property name="ElementShortName">reg_2c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_2c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_30" type="array">
+      <obj_property name="ElementShortName">reg_30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_30[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_34" type="array">
+      <obj_property name="ElementShortName">reg_34[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_34[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_38" type="array">
+      <obj_property name="ElementShortName">reg_38[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_38[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_3c" type="array">
+      <obj_property name="ElementShortName">reg_3c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_3c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_40" type="array">
+      <obj_property name="ElementShortName">reg_40[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_40[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_44" type="array">
+      <obj_property name="ElementShortName">reg_44[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_44[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_48" type="array">
+      <obj_property name="ElementShortName">reg_48[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_48[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_4c" type="array">
+      <obj_property name="ElementShortName">reg_4c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_4c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_50" type="array">
+      <obj_property name="ElementShortName">reg_50[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_50[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_54" type="array">
+      <obj_property name="ElementShortName">reg_54[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_54[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_58" type="array">
+      <obj_property name="ElementShortName">reg_58[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_58[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_5c" type="array">
+      <obj_property name="ElementShortName">reg_5c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_5c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_60" type="array">
+      <obj_property name="ElementShortName">reg_60[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_60[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_64" type="array">
+      <obj_property name="ElementShortName">reg_64[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_64[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_68" type="array">
+      <obj_property name="ElementShortName">reg_68[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_68[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_6c" type="array">
+      <obj_property name="ElementShortName">reg_6c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_6c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_70" type="array">
+      <obj_property name="ElementShortName">reg_70[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_70[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_74" type="array">
+      <obj_property name="ElementShortName">reg_74[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_74[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_78" type="array">
+      <obj_property name="ElementShortName">reg_78[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_78[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/reg_7c" type="array">
+      <obj_property name="ElementShortName">reg_7c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_7c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_ns_int" type="array">
+      <obj_property name="ElementShortName">time_reg_ns_int[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_ns_int[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_reg_sec_int" type="array">
+      <obj_property name="ElementShortName">time_reg_sec_int[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_sec_int[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_data_int" type="array">
+      <obj_property name="ElementShortName">rx_q_data_int[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_q_data_int[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_stat_int" type="array">
+      <obj_property name="ElementShortName">rx_q_stat_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_q_stat_int[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_data_int" type="array">
+      <obj_property name="ElementShortName">tx_q_data_int[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_q_data_int[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_stat_int" type="array">
+      <obj_property name="ElementShortName">tx_q_stat_int[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_q_stat_int[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ok" type="logic">
+      <obj_property name="ElementShortName">time_ok</obj_property>
+      <obj_property name="ObjectShortName">time_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_ok" type="logic">
+      <obj_property name="ElementShortName">rxqu_ok</obj_property>
+      <obj_property name="ObjectShortName">rxqu_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_ok" type="logic">
+      <obj_property name="ElementShortName">txqu_ok</obj_property>
+      <obj_property name="ObjectShortName">txqu_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/data_out_reg" type="array">
+      <obj_property name="ElementShortName">data_out_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_rst" type="logic">
+      <obj_property name="ElementShortName">rtc_rst</obj_property>
+      <obj_property name="ObjectShortName">rtc_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ld" type="logic">
+      <obj_property name="ElementShortName">time_ld</obj_property>
+      <obj_property name="ObjectShortName">time_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/perd_ld" type="logic">
+      <obj_property name="ElementShortName">perd_ld</obj_property>
+      <obj_property name="ObjectShortName">perd_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adjt_ld" type="logic">
+      <obj_property name="ElementShortName">adjt_ld</obj_property>
+      <obj_property name="ObjectShortName">adjt_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd" type="logic">
+      <obj_property name="ElementShortName">time_rd</obj_property>
+      <obj_property name="ObjectShortName">time_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxq_rst" type="logic">
+      <obj_property name="ElementShortName">rxq_rst</obj_property>
+      <obj_property name="ObjectShortName">rxq_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txq_rst" type="logic">
+      <obj_property name="ElementShortName">txq_rst</obj_property>
+      <obj_property name="ObjectShortName">txq_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd" type="logic">
+      <obj_property name="ElementShortName">txqu_rd</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_rst_s1" type="logic">
+      <obj_property name="ElementShortName">rtc_rst_s1</obj_property>
+      <obj_property name="ObjectShortName">rtc_rst_s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_rst_s2" type="logic">
+      <obj_property name="ElementShortName">rtc_rst_s2</obj_property>
+      <obj_property name="ObjectShortName">rtc_rst_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rtc_rst_s3" type="logic">
+      <obj_property name="ElementShortName">rtc_rst_s3</obj_property>
+      <obj_property name="ObjectShortName">rtc_rst_s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ld_s1" type="logic">
+      <obj_property name="ElementShortName">time_ld_s1</obj_property>
+      <obj_property name="ObjectShortName">time_ld_s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ld_s2" type="logic">
+      <obj_property name="ElementShortName">time_ld_s2</obj_property>
+      <obj_property name="ObjectShortName">time_ld_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_ld_s3" type="logic">
+      <obj_property name="ElementShortName">time_ld_s3</obj_property>
+      <obj_property name="ObjectShortName">time_ld_s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/perd_ld_s1" type="logic">
+      <obj_property name="ElementShortName">perd_ld_s1</obj_property>
+      <obj_property name="ObjectShortName">perd_ld_s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/perd_ld_s2" type="logic">
+      <obj_property name="ElementShortName">perd_ld_s2</obj_property>
+      <obj_property name="ObjectShortName">perd_ld_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/perd_ld_s3" type="logic">
+      <obj_property name="ElementShortName">perd_ld_s3</obj_property>
+      <obj_property name="ObjectShortName">perd_ld_s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adjt_ld_s1" type="logic">
+      <obj_property name="ElementShortName">adjt_ld_s1</obj_property>
+      <obj_property name="ObjectShortName">adjt_ld_s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adjt_ld_s2" type="logic">
+      <obj_property name="ElementShortName">adjt_ld_s2</obj_property>
+      <obj_property name="ObjectShortName">adjt_ld_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/adjt_ld_s3" type="logic">
+      <obj_property name="ElementShortName">adjt_ld_s3</obj_property>
+      <obj_property name="ObjectShortName">adjt_ld_s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_s1" type="logic">
+      <obj_property name="ElementShortName">time_rd_s1</obj_property>
+      <obj_property name="ObjectShortName">time_rd_s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_s2" type="logic">
+      <obj_property name="ElementShortName">time_rd_s2</obj_property>
+      <obj_property name="ObjectShortName">time_rd_s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_s3" type="logic">
+      <obj_property name="ElementShortName">time_rd_s3</obj_property>
+      <obj_property name="ObjectShortName">time_rd_s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_ack" type="logic">
+      <obj_property name="ElementShortName">time_rd_ack</obj_property>
+      <obj_property name="ObjectShortName">time_rd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_d1" type="logic">
+      <obj_property name="ElementShortName">time_rd_d1</obj_property>
+      <obj_property name="ObjectShortName">time_rd_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/time_rd_req" type="logic">
+      <obj_property name="ElementShortName">time_rd_req</obj_property>
+      <obj_property name="ObjectShortName">time_rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxq_rst_d1" type="logic">
+      <obj_property name="ElementShortName">rxq_rst_d1</obj_property>
+      <obj_property name="ObjectShortName">rxq_rst_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxq_rst_d2" type="logic">
+      <obj_property name="ElementShortName">rxq_rst_d2</obj_property>
+      <obj_property name="ObjectShortName">rxq_rst_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxq_rst_d3" type="logic">
+      <obj_property name="ElementShortName">rxq_rst_d3</obj_property>
+      <obj_property name="ObjectShortName">rxq_rst_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd_d1" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd_d1</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd_d2" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd_d2</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd_d3" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd_d3</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd_d4" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd_d4</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd_d4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rxqu_rd_d5" type="logic">
+      <obj_property name="ElementShortName">rxqu_rd_d5</obj_property>
+      <obj_property name="ObjectShortName">rxqu_rd_d5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_rd_req" type="logic">
+      <obj_property name="ElementShortName">rx_q_rd_req</obj_property>
+      <obj_property name="ObjectShortName">rx_q_rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/rx_q_rd_ack" type="logic">
+      <obj_property name="ElementShortName">rx_q_rd_ack</obj_property>
+      <obj_property name="ObjectShortName">rx_q_rd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txq_rst_d1" type="logic">
+      <obj_property name="ElementShortName">txq_rst_d1</obj_property>
+      <obj_property name="ObjectShortName">txq_rst_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txq_rst_d2" type="logic">
+      <obj_property name="ElementShortName">txq_rst_d2</obj_property>
+      <obj_property name="ObjectShortName">txq_rst_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txq_rst_d3" type="logic">
+      <obj_property name="ElementShortName">txq_rst_d3</obj_property>
+      <obj_property name="ObjectShortName">txq_rst_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd_d1" type="logic">
+      <obj_property name="ElementShortName">txqu_rd_d1</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd_d2" type="logic">
+      <obj_property name="ElementShortName">txqu_rd_d2</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd_d3" type="logic">
+      <obj_property name="ElementShortName">txqu_rd_d3</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd_d4" type="logic">
+      <obj_property name="ElementShortName">txqu_rd_d4</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd_d4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/txqu_rd_d5" type="logic">
+      <obj_property name="ElementShortName">txqu_rd_d5</obj_property>
+      <obj_property name="ObjectShortName">txqu_rd_d5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_rd_req" type="logic">
+      <obj_property name="ElementShortName">tx_q_rd_req</obj_property>
+      <obj_property name="ObjectShortName">tx_q_rd_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/tx_q_rd_ack" type="logic">
+      <obj_property name="ElementShortName">tx_q_rd_ack</obj_property>
+      <obj_property name="ObjectShortName">tx_q_rd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_00" type="array">
+      <obj_property name="ElementShortName">const_00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_00[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_04" type="array">
+      <obj_property name="ElementShortName">const_04[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_04[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_08" type="array">
+      <obj_property name="ElementShortName">const_08[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_08[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_0c" type="array">
+      <obj_property name="ElementShortName">const_0c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_0c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_10" type="array">
+      <obj_property name="ElementShortName">const_10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_10[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_14" type="array">
+      <obj_property name="ElementShortName">const_14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_14[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_18" type="array">
+      <obj_property name="ElementShortName">const_18[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_18[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_1c" type="array">
+      <obj_property name="ElementShortName">const_1c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_1c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_20" type="array">
+      <obj_property name="ElementShortName">const_20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_20[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_24" type="array">
+      <obj_property name="ElementShortName">const_24[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_24[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_28" type="array">
+      <obj_property name="ElementShortName">const_28[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_28[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_2c" type="array">
+      <obj_property name="ElementShortName">const_2c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_2c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_30" type="array">
+      <obj_property name="ElementShortName">const_30[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_30[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_34" type="array">
+      <obj_property name="ElementShortName">const_34[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_34[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_38" type="array">
+      <obj_property name="ElementShortName">const_38[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_38[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_3c" type="array">
+      <obj_property name="ElementShortName">const_3c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_3c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_40" type="array">
+      <obj_property name="ElementShortName">const_40[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_40[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_44" type="array">
+      <obj_property name="ElementShortName">const_44[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_44[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_48" type="array">
+      <obj_property name="ElementShortName">const_48[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_48[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_4c" type="array">
+      <obj_property name="ElementShortName">const_4c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_4c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_50" type="array">
+      <obj_property name="ElementShortName">const_50[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_50[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_54" type="array">
+      <obj_property name="ElementShortName">const_54[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_54[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_58" type="array">
+      <obj_property name="ElementShortName">const_58[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_58[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_5c" type="array">
+      <obj_property name="ElementShortName">const_5c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_5c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_60" type="array">
+      <obj_property name="ElementShortName">const_60[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_60[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_64" type="array">
+      <obj_property name="ElementShortName">const_64[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_64[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_68" type="array">
+      <obj_property name="ElementShortName">const_68[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_68[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_6c" type="array">
+      <obj_property name="ElementShortName">const_6c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_6c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_70" type="array">
+      <obj_property name="ElementShortName">const_70[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_70[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_74" type="array">
+      <obj_property name="ElementShortName">const_74[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_74[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_78" type="array">
+      <obj_property name="ElementShortName">const_78[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_78[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/u_rgs/const_7c" type="array">
+      <obj_property name="ElementShortName">const_7c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">const_7c[7:0]</obj_property>
+   </wvobject>
+</wave_config>

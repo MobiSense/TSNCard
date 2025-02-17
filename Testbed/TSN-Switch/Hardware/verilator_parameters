@@ -1,0 +1,11 @@
+-y /mnt/d/Code/tns_tsn_switch/HDL/hw_timestamp/tsu 
+-y /mnt/d/Code/tns_tsn_switch/HDL/hw_timestamp 
+-y /mnt/d/Code/tns_tsn_switch/HDL/cpu_header 
+-y /mnt/d/Code/tns_tsn_switch/HDL 
+-v /mnt/d/Code/tns_tsn_switch/IP/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0_stub.v 
+-y /mnt/d/Code/tns_tsn_switch/IP/clk_wiz_0_1 
+-v /mnt/d/Code/tns_tsn_switch/IP/tri_mode_ethernet_mac_1/tri_mode_ethernet_mac_1_stub.v 
+-v /mnt/d/Code/tns_tsn_switch/IP/axis_dwidth_converter_8_256/axis_dwidth_converter_8_256_stub.v 
+-v /mnt/d/Code/tns_tsn_switch/IP/axis_dwidth_converter_256_8/axis_dwidth_converter_256_8_stub.v
+-y /mnt/d/Code/tns_tsn_switch/BD/zynq_ps/hdl
+-v /mnt/d/Code/tns_tsn_switch/IP/axis_clock_converter_0/axis_clock_converter_0_stub.v 

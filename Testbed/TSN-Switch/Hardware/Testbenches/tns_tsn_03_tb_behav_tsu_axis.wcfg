@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tns_tsn_03_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5973268321fs"></ZoomEndTime>
+      <Cursor1Time time="276210000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /mac_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">mac_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /mac_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /mac_axis_tready" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /mac_axis_tdata" type="array">
+      <obj_property name="ElementShortName">mac_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /mac_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ptp_msgid_mask" type="array">
+      <obj_property name="ElementShortName">ptp_msgid_mask[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptp_msgid_mask[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /rtc_timer_clk" type="logic">
+      <obj_property name="ElementShortName">rtc_timer_clk</obj_property>
+      <obj_property name="ObjectShortName">rtc_timer_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /rtc_timer_in" type="array">
+      <obj_property name="ElementShortName">rtc_timer_in[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rtc_timer_in[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rst" type="logic">
+      <obj_property name="ElementShortName">q_rst</obj_property>
+      <obj_property name="ObjectShortName">q_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rd_clk" type="logic">
+      <obj_property name="ElementShortName">q_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">q_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rd_en" type="logic">
+      <obj_property name="ElementShortName">q_rd_en</obj_property>
+      <obj_property name="ObjectShortName">q_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rd_stat" type="array">
+      <obj_property name="ElementShortName">q_rd_stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q_rd_stat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rd_data" type="array">
+      <obj_property name="ElementShortName">q_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">q_rd_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /axis_state" type="logic">
+      <obj_property name="ElementShortName">axis_state</obj_property>
+      <obj_property name="ObjectShortName">axis_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /nxt_axis_state" type="logic">
+      <obj_property name="ElementShortName">nxt_axis_state</obj_property>
+      <obj_property name="ObjectShortName">nxt_axis_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_req" type="logic">
+      <obj_property name="ElementShortName">ts_req</obj_property>
+      <obj_property name="ObjectShortName">ts_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_req_d1" type="logic">
+      <obj_property name="ElementShortName">ts_req_d1</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_req_d2" type="logic">
+      <obj_property name="ElementShortName">ts_req_d2</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_req_d3" type="logic">
+      <obj_property name="ElementShortName">ts_req_d3</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /rtc_time_stamp" type="array">
+      <obj_property name="ElementShortName">rtc_time_stamp[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rtc_time_stamp[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_ack" type="logic">
+      <obj_property name="ElementShortName">ts_ack</obj_property>
+      <obj_property name="ObjectShortName">ts_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_ack_clr" type="logic">
+      <obj_property name="ElementShortName">ts_ack_clr</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_ack_d1" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d1</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_ack_d2" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d2</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ts_ack_d3" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d3</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /tsu_time_stamp" type="array">
+      <obj_property name="ElementShortName">tsu_time_stamp[79:0]</obj_property>
+      <obj_property name="ObjectShortName">tsu_time_stamp[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_valid" type="logic">
+      <obj_property name="ElementShortName">int_valid</obj_property>
+      <obj_property name="ObjectShortName">int_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_sop" type="logic">
+      <obj_property name="ElementShortName">int_sop</obj_property>
+      <obj_property name="ObjectShortName">int_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_eop" type="logic">
+      <obj_property name="ElementShortName">int_eop</obj_property>
+      <obj_property name="ObjectShortName">int_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_bcnt" type="array">
+      <obj_property name="ElementShortName">int_bcnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_bcnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_mod" type="array">
+      <obj_property name="ElementShortName">int_mod[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_mod[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /int_data" type="array">
+      <obj_property name="ElementShortName">int_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ptp_found" type="logic">
+      <obj_property name="ElementShortName">ptp_found</obj_property>
+      <obj_property name="ObjectShortName">ptp_found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /ptp_infor" type="array">
+      <obj_property name="ElementShortName">ptp_infor[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptp_infor[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_wr_clk" type="logic">
+      <obj_property name="ElementShortName">q_wr_clk</obj_property>
+      <obj_property name="ObjectShortName">q_wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_wr_en" type="logic">
+      <obj_property name="ElementShortName">q_wr_en</obj_property>
+      <obj_property name="ObjectShortName">q_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_wr_data" type="array">
+      <obj_property name="ElementShortName">q_wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">q_wr_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_wrusedw" type="array">
+      <obj_property name="ElementShortName">q_wrusedw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_wrusedw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rdusedw" type="array">
+      <obj_property name="ElementShortName">q_rdusedw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">q_rdusedw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_wr_full" type="logic">
+      <obj_property name="ElementShortName">q_wr_full</obj_property>
+      <obj_property name="ObjectShortName">q_wr_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /q_rd_empty" type="logic">
+      <obj_property name="ElementShortName">q_rd_empty</obj_property>
+      <obj_property name="ObjectShortName">q_rd_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /IDLE" type="logic">
+      <obj_property name="ElementShortName">IDLE</obj_property>
+      <obj_property name="ObjectShortName">IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/\genblk1[0].tsu_axis_tx_i /TRANSFER" type="logic">
+      <obj_property name="ElementShortName">TRANSFER</obj_property>
+      <obj_property name="ObjectShortName">TRANSFER</obj_property>
+   </wvobject>
+</wave_config>

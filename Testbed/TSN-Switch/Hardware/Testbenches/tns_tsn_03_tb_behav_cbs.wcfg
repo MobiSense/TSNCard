@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="tns_tsn_03_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="39603385fs"></ZoomStartTime>
+      <ZoomEndTime time="539363323fs"></ZoomEndTime>
+      <Cursor1Time time="456070000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="342"></NameColumnWidth>
+      <ValueColumnWidth column_width="192"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_mac_aclk" type="logic">
+      <obj_property name="ElementShortName">tx_mac_aclk</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_reset" type="logic">
+      <obj_property name="ElementShortName">tx_reset</obj_property>
+      <obj_property name="ObjectShortName">tx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_legacy_tdata" type="array">
+      <obj_property name="ElementShortName">tx_axis_mac_legacy_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_legacy_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_legacy_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_legacy_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_legacy_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_legacy_tready" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_legacy_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_legacy_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_legacy_tlast" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_legacy_tlast</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_legacy_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_av_tdata" type="array">
+      <obj_property name="ElementShortName">tx_axis_mac_av_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_av_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_av_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_av_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_av_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_av_tready" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_av_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_av_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_av_tlast" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_av_tlast</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_av_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_tdata" type="array">
+      <obj_property name="ElementShortName">tx_axis_mac_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_tready" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_tlast" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tlast</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_tuser" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_tuser</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/port_transmit_rate" type="array">
+      <obj_property name="ElementShortName">port_transmit_rate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">port_transmit_rate[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/idle_slope" type="array">
+      <obj_property name="ElementShortName">idle_slope[15:0]</obj_property>
+      <obj_property name="ObjectShortName">idle_slope[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/token_update_count" type="array">
+      <obj_property name="ElementShortName">token_update_count[11:0]</obj_property>
+      <obj_property name="ObjectShortName">token_update_count[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/transmit_av" type="logic">
+      <obj_property name="ElementShortName">transmit_av</obj_property>
+      <obj_property name="ObjectShortName">transmit_av</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/nxt_transmit_av" type="logic">
+      <obj_property name="ElementShortName">nxt_transmit_av</obj_property>
+      <obj_property name="ObjectShortName">nxt_transmit_av</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/transmit_legacy" type="logic">
+      <obj_property name="ElementShortName">transmit_legacy</obj_property>
+      <obj_property name="ObjectShortName">transmit_legacy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/nxt_transmit_legacy" type="logic">
+      <obj_property name="ElementShortName">nxt_transmit_legacy</obj_property>
+      <obj_property name="ObjectShortName">nxt_transmit_legacy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/credit" type="array">
+      <obj_property name="ElementShortName">credit[15:0]</obj_property>
+      <obj_property name="ObjectShortName">credit[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/send_slope" type="array">
+      <obj_property name="ElementShortName">send_slope[15:0]</obj_property>
+      <obj_property name="ObjectShortName">send_slope[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/transmit_allowed_av" type="logic">
+      <obj_property name="ElementShortName">transmit_allowed_av</obj_property>
+      <obj_property name="ObjectShortName">transmit_allowed_av</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/have_data_waiting_av" type="logic">
+      <obj_property name="ElementShortName">have_data_waiting_av</obj_property>
+      <obj_property name="ObjectShortName">have_data_waiting_av</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_state" type="array">
+      <obj_property name="ElementShortName">tx_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_nxt_state" type="array">
+      <obj_property name="ElementShortName">tx_nxt_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_nxt_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_select_tdata" type="array">
+      <obj_property name="ElementShortName">tx_axis_mac_select_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_select_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_select_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_select_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_select_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_select_tready" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_select_tready</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_select_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/tx_axis_mac_select_tlast" type="logic">
+      <obj_property name="ElementShortName">tx_axis_mac_select_tlast</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_mac_select_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/DATA_PRELOAD" type="array">
+      <obj_property name="ElementShortName">DATA_PRELOAD[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_PRELOAD[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/FRAME" type="array">
+      <obj_property name="ElementShortName">FRAME[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/HANDSHAKE" type="array">
+      <obj_property name="ElementShortName">HANDSHAKE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HANDSHAKE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/qav_credit_based_shaper_ins/FINISH" type="array">
+      <obj_property name="ElementShortName">FINISH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FINISH[3:0]</obj_property>
+   </wvobject>
+</wave_config>

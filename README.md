@@ -10,16 +10,16 @@
 <h3 align="center">
     <a href="http://tns.thss.tsinghua.edu.cn/ziggo/">Project Page</a> |
     <a href="https://mobisense.github.io/ziggo_homepage/data/TSNCard.pdf">Paper</a> |
-    <a href="https://github.com/Mobisense/Ziggo-CaaS-Switch">ZIGGO-CaaS-Switch</a> |
-    <a href="https://github.com/Mobisense/Ziggo-Evaluation-Toolkit">ZIGGO-TSNPerf</a> 
+    <a href="https://mobisense.github.io/ziggo_book/">ZIGGO-BOOK</a> 
 </h3>
+
 
 ![](figs/banner.jpg)
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [File Structure Overview](#File-Structure-Overview)
+2. [Getting Start](#Getting-start)
 3. [ZIGGO Open Platform](#ziggo-open-platform)
 4. [Demo](#demo)
 5. [Features](#features)
@@ -31,23 +31,42 @@
 ZIGGO is a `flexible`, `standard-compliant`, and `control-function-virtualized` TSN switch platform ready for **industrial control**, **automotive electronics**, and other **time-sensitive applications**.
 
 This is the document for the ZIGGO TSNCard. (We also offer [ZIGGO-CaaS-Switch](https://github.com/MobiSense/Ziggo-CaaS-Switch), [ZIGGO-Device](https://github.com/MobiSense/Ziggo-Device), [ZIGGO-TSNPerf](https://github.com/MobiSense/Ziggo-TSNPerf) that comply with the IEEE 802.1 TSN standard.) 
-## File Structure Overview
 
-The `docs` folder contains the basic documentation.
 
-The `figs` folder contains the images needed for the documentation.
 
-The `Hardware` folder contains the TSN switch in Debug Mode.
+## Getting Start
 
-The `Simulation` folder contains scripts for simulating errors in the TSN network using OMnet++.
+TSNCard paper presents two experimental setups. One relies on a **software-simulated TSN testing environment** using OMNet++, and the other uses a **real-world, physical TSN testbed**. Choose whichever suits your needs best.
 
-The `Software` folder contains the three algorithms mentioned in the paper.
+
+
+Developers who want to use OMNet++ should refer to the `simulation` folder and follow the documentation provided. 
+
+* [Getting start with OMNet++](./simulation/readme.md)
+
+
+
+For those looking to use the testbed, please be patient. The code is in the `testbed` folder.
+
+In a real TSN network, we need at least  TSN switches, end devices, and a server (CNC). Both the switch and TSNPerf (end device) are developed based on ZYNQ, requiring hardware-software coordination. To this end, we provide detailed system design documents and software and hardware operation documents.The server-side software can run on any Linux system. 
+
+* [Getting start with TSNPerf](./testbed/TSNPerf/docs/readme.md)
+* [Getting start with TSN Switch](./testbed/TSN-Switch/docs/readme.md)
+* [Getting start with server/CNC](./testbed/server-CNC/readme.md)
+
+To help everyone get started, we also provide a tutorial for building a simple TSN network, which we hope will be useful.
+
+* [Demo tutorial](./testbed/testbed-build/readme.md) 
+
+
 
 ## ZIGGO Open Platform
 
 ![](figs/demo-app.png)
 
 The construction of the ZIGGO Open Platform consists of three levels: network device, management tools, and a Demo App.
+
+
 
 ## Demo
 
@@ -58,6 +77,8 @@ The left side of the picture is the ZYNQ development board we use, and the right
 [![Watch the video](figs/testbed.jpg)](https://cloud.tsinghua.edu.cn/f/b307da6840d84e5f9ff1/)
 
 > Click the pic to watch the video! Or just click [here](https://cloud.tsinghua.edu.cn/f/b307da6840d84e5f9ff1/).
+
+
 
 ## Features
 
@@ -70,6 +91,8 @@ The left side of the picture is the ZYNQ development board we use, and the right
   * ZIGGO achieve **Zero Packet Loss** , **Microsecond-level Latency** with **Nanosecond-level Jitter Gate Ability**.
   * ZIGGO guarantee **Gigabit Throughput**.
   * ZIGGO provide gate accuracy applicable to **All Ethernet Frame Sizes**.
+
+
 
 ## License and Citation
 
@@ -86,9 +109,11 @@ Please consider citing our papers if the project helps your research with the fo
 }
 ```
 
+
+
 ## Contributing
 
-Please see the [guide](docs/contributing.md) for information on how to ask for help or contribute to the development of ZIGGO!
+Please see the [guide](contributing.md) for information on how to ask for help or contribute to the development of ZIGGO!
 
 > The development team will only answer questions on github issues and reject other forms of questions.
 

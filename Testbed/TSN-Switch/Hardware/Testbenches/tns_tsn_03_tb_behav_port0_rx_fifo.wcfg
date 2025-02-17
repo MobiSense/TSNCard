@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="tns_tsn_03_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="37646666fs"></ZoomStartTime>
+      <ZoomEndTime time="37830667fs"></ZoomEndTime>
+      <Cursor1Time time="37800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="342"></NameColumnWidth>
+      <ValueColumnWidth column_width="199"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="76" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_fifo_aclk" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_aclk</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_fifo_resetn" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_resetn</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_fifo_tdata" type="array">
+      <obj_property name="ElementShortName">rx_axis_fifo_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_fifo_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_fifo_tvalid" type="logic">
+      <obj_property name="ElementShortName">rx_axis_fifo_tvalid</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_fifo_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_fifo_tlast" type="logic">
+      <obj_property name="ElementShortName">rx_axis_fifo_tlast</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_fifo_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_fifo_tready" type="logic">
+      <obj_property name="ElementShortName">rx_axis_fifo_tready</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_fifo_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_mac_aclk" type="logic">
+      <obj_property name="ElementShortName">rx_mac_aclk</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_mac_resetn" type="logic">
+      <obj_property name="ElementShortName">rx_mac_resetn</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_mac_tdata" type="array">
+      <obj_property name="ElementShortName">rx_axis_mac_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_mac_tvalid" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tvalid</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_mac_tlast" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tlast</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_mac_tuser" type="logic">
+      <obj_property name="ElementShortName">rx_axis_mac_tuser</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_mac_tuser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/fifo_status" type="array">
+      <obj_property name="ElementShortName">fifo_status[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_status[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/fifo_overflow" type="logic">
+      <obj_property name="ElementShortName">fifo_overflow</obj_property>
+      <obj_property name="ObjectShortName">fifo_overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_state" type="array">
+      <obj_property name="ElementShortName">rd_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_nxt_state" type="array">
+      <obj_property name="ElementShortName">rd_nxt_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_nxt_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_state" type="array">
+      <obj_property name="ElementShortName">wr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_nxt_state" type="array">
+      <obj_property name="ElementShortName">wr_nxt_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_nxt_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_addr_inc" type="logic">
+      <obj_property name="ElementShortName">wr_addr_inc</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_start_addr_load" type="logic">
+      <obj_property name="ElementShortName">wr_start_addr_load</obj_property>
+      <obj_property name="ObjectShortName">wr_start_addr_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_addr_reload" type="logic">
+      <obj_property name="ElementShortName">wr_addr_reload</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_reload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_start_addr" type="array">
+      <obj_property name="ElementShortName">wr_start_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_start_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_eof_data_bram" type="array">
+      <obj_property name="ElementShortName">wr_eof_data_bram[8:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_eof_data_bram[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_data_bram" type="array">
+      <obj_property name="ElementShortName">wr_data_bram[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_bram[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_data_pipe" type="array">
+      <obj_property name="ElementShortName">wr_data_pipe[0:1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_pipe[0:1][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_dv_pipe" type="array">
+      <obj_property name="ElementShortName">wr_dv_pipe[0:2]</obj_property>
+      <obj_property name="ObjectShortName">wr_dv_pipe[0:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_gfbf_pipe" type="array">
+      <obj_property name="ElementShortName">wr_gfbf_pipe[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_gfbf_pipe[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_gf" type="logic">
+      <obj_property name="ElementShortName">wr_gf</obj_property>
+      <obj_property name="ObjectShortName">wr_gf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_bf" type="logic">
+      <obj_property name="ElementShortName">wr_bf</obj_property>
+      <obj_property name="ObjectShortName">wr_bf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_eof_bram_pipe" type="array">
+      <obj_property name="ElementShortName">wr_eof_bram_pipe[0:1]</obj_property>
+      <obj_property name="ObjectShortName">wr_eof_bram_pipe[0:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_eof_bram" type="logic">
+      <obj_property name="ElementShortName">wr_eof_bram</obj_property>
+      <obj_property name="ObjectShortName">wr_eof_bram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/frame_in_fifo" type="logic">
+      <obj_property name="ElementShortName">frame_in_fifo</obj_property>
+      <obj_property name="ObjectShortName">frame_in_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_addr_inc" type="logic">
+      <obj_property name="ElementShortName">rd_addr_inc</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_addr_reload" type="logic">
+      <obj_property name="ElementShortName">rd_addr_reload</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_reload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_eof_data_bram" type="array">
+      <obj_property name="ElementShortName">rd_eof_data_bram[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_eof_data_bram[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_data_bram" type="array">
+      <obj_property name="ElementShortName">rd_data_bram[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_bram[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_data_pipe" type="array">
+      <obj_property name="ElementShortName">rd_data_pipe[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_pipe[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_data_delay" type="array">
+      <obj_property name="ElementShortName">rd_data_delay[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_delay[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_valid_pipe" type="array">
+      <obj_property name="ElementShortName">rd_valid_pipe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_valid_pipe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_eof_bram" type="array">
+      <obj_property name="ElementShortName">rd_eof_bram[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_eof_bram[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_pull_frame" type="logic">
+      <obj_property name="ElementShortName">rd_pull_frame</obj_property>
+      <obj_property name="ObjectShortName">rd_pull_frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_eof" type="logic">
+      <obj_property name="ElementShortName">rd_eof</obj_property>
+      <obj_property name="ObjectShortName">rd_eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_store_frame_tog" type="logic">
+      <obj_property name="ElementShortName">wr_store_frame_tog</obj_property>
+      <obj_property name="ObjectShortName">wr_store_frame_tog</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_store_frame_sync" type="logic">
+      <obj_property name="ElementShortName">rd_store_frame_sync</obj_property>
+      <obj_property name="ObjectShortName">rd_store_frame_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_store_frame_delay" type="logic">
+      <obj_property name="ElementShortName">rd_store_frame_delay</obj_property>
+      <obj_property name="ObjectShortName">rd_store_frame_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_store_frame" type="logic">
+      <obj_property name="ElementShortName">rd_store_frame</obj_property>
+      <obj_property name="ObjectShortName">rd_store_frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rd_frames" type="array">
+      <obj_property name="ElementShortName">rd_frames[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_frames[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_fifo_full" type="logic">
+      <obj_property name="ElementShortName">wr_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/old_rd_addr" type="array">
+      <obj_property name="ElementShortName">old_rd_addr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">old_rd_addr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/update_addr_tog" type="logic">
+      <obj_property name="ElementShortName">update_addr_tog</obj_property>
+      <obj_property name="ObjectShortName">update_addr_tog</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/update_addr_tog_sync" type="logic">
+      <obj_property name="ElementShortName">update_addr_tog_sync</obj_property>
+      <obj_property name="ObjectShortName">update_addr_tog_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/update_addr_tog_sync_reg" type="logic">
+      <obj_property name="ElementShortName">update_addr_tog_sync_reg</obj_property>
+      <obj_property name="ObjectShortName">update_addr_tog_sync_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_rd_addr" type="array">
+      <obj_property name="ElementShortName">wr_rd_addr[11:6]</obj_property>
+      <obj_property name="ObjectShortName">wr_rd_addr[11:6]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_addr_diff_in" type="array">
+      <obj_property name="ElementShortName">wr_addr_diff_in[12:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_diff_in[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_addr_diff" type="array">
+      <obj_property name="ElementShortName">wr_addr_diff[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_diff[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/wr_fifo_status" type="array">
+      <obj_property name="ElementShortName">wr_fifo_status[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_fifo_status[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_axis_fifo_tlast_int" type="logic">
+      <obj_property name="ElementShortName">rx_axis_fifo_tlast_int</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_fifo_tlast_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_fifo_reset" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/rx_mac_reset" type="logic">
+      <obj_property name="ElementShortName">rx_mac_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/WAIT_s" type="array">
+      <obj_property name="ElementShortName">WAIT_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/QUEUE1_s" type="array">
+      <obj_property name="ElementShortName">QUEUE1_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">QUEUE1_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/QUEUE2_s" type="array">
+      <obj_property name="ElementShortName">QUEUE2_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">QUEUE2_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/QUEUE3_s" type="array">
+      <obj_property name="ElementShortName">QUEUE3_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">QUEUE3_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/QUEUE_SOF_s" type="array">
+      <obj_property name="ElementShortName">QUEUE_SOF_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">QUEUE_SOF_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/SOF_s" type="array">
+      <obj_property name="ElementShortName">SOF_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SOF_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/DATA_s" type="array">
+      <obj_property name="ElementShortName">DATA_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/EOF_s" type="array">
+      <obj_property name="ElementShortName">EOF_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EOF_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/IDLE_s" type="array">
+      <obj_property name="ElementShortName">IDLE_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/FRAME_s" type="array">
+      <obj_property name="ElementShortName">FRAME_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/GF_s" type="array">
+      <obj_property name="ElementShortName">GF_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">GF_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/BF_s" type="array">
+      <obj_property name="ElementShortName">BF_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">BF_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/qav_mac_0/rx_fifo/OVFLOW_s" type="array">
+      <obj_property name="ElementShortName">OVFLOW_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">OVFLOW_s[2:0]</obj_property>
+   </wvobject>
+</wave_config>

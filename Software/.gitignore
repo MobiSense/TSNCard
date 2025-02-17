@@ -1,8 +1,0 @@
-/.metadata/
-/inet4.5/
-/.vscode/
-*.o
-tsnmp
-server_main
-switch_main
-/logs/

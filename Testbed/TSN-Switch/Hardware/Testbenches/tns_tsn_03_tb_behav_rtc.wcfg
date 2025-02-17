@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tns_tsn_03_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_dma_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="std" />
+            <top_module name="tns_tsn_03_tb" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1034213686fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="410"></NameColumnWidth>
+      <ValueColumnWidth column_width="199"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_ld" type="logic">
+      <obj_property name="ElementShortName">time_ld</obj_property>
+      <obj_property name="ObjectShortName">time_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_reg_ns_in" type="array">
+      <obj_property name="ElementShortName">time_reg_ns_in[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_ns_in[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_reg_sec_in" type="array">
+      <obj_property name="ElementShortName">time_reg_sec_in[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_sec_in[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/period_ld" type="logic">
+      <obj_property name="ElementShortName">period_ld</obj_property>
+      <obj_property name="ObjectShortName">period_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/period_in" type="array">
+      <obj_property name="ElementShortName">period_in[39:0]</obj_property>
+      <obj_property name="ObjectShortName">period_in[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/adj_ld" type="logic">
+      <obj_property name="ElementShortName">adj_ld</obj_property>
+      <obj_property name="ObjectShortName">adj_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/adj_ld_data" type="array">
+      <obj_property name="ElementShortName">adj_ld_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adj_ld_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/adj_ld_done" type="logic">
+      <obj_property name="ElementShortName">adj_ld_done</obj_property>
+      <obj_property name="ObjectShortName">adj_ld_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/period_adj" type="array">
+      <obj_property name="ElementShortName">period_adj[39:0]</obj_property>
+      <obj_property name="ObjectShortName">period_adj[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_reg_ns" type="array">
+      <obj_property name="ElementShortName">time_reg_ns[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_ns[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_reg_sec" type="array">
+      <obj_property name="ElementShortName">time_reg_sec[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_reg_sec[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_one_pps" type="logic">
+      <obj_property name="ElementShortName">time_one_pps</obj_property>
+      <obj_property name="ObjectShortName">time_one_pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_ptp_ns" type="array">
+      <obj_property name="ElementShortName">time_ptp_ns[31:0]</obj_property>
+      <obj_property name="ObjectShortName">time_ptp_ns[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_ptp_sec" type="array">
+      <obj_property name="ElementShortName">time_ptp_sec[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_ptp_sec[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/period_fix" type="array">
+      <obj_property name="ElementShortName">period_fix[39:0]</obj_property>
+      <obj_property name="ObjectShortName">period_fix[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/adj_cnt" type="array">
+      <obj_property name="ElementShortName">adj_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adj_cnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_adj" type="array">
+      <obj_property name="ElementShortName">time_adj[39:0]</obj_property>
+      <obj_property name="ObjectShortName">time_adj[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_adj_08n_32f" type="array">
+      <obj_property name="ElementShortName">time_adj_08n_32f[39:0]</obj_property>
+      <obj_property name="ObjectShortName">time_adj_08n_32f[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_adj_16b_00n_24f" type="array">
+      <obj_property name="ElementShortName">time_adj_16b_00n_24f[39:0]</obj_property>
+      <obj_property name="ObjectShortName">time_adj_16b_00n_24f[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_adj_22b_08n_08f" type="array">
+      <obj_property name="ElementShortName">time_adj_22b_08n_08f[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_adj_22b_08n_08f[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_30n_08f_pre_pos" type="array">
+      <obj_property name="ElementShortName">time_acc_30n_08f_pre_pos[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_acc_30n_08f_pre_pos[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_30n_08f_pre_neg" type="array">
+      <obj_property name="ElementShortName">time_acc_30n_08f_pre_neg[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_acc_30n_08f_pre_neg[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_48s_inc" type="logic">
+      <obj_property name="ElementShortName">time_acc_48s_inc</obj_property>
+      <obj_property name="ObjectShortName">time_acc_48s_inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_30n_08f" type="array">
+      <obj_property name="ElementShortName">time_acc_30n_08f[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_acc_30n_08f[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_48s" type="array">
+      <obj_property name="ElementShortName">time_acc_48s[47:0]</obj_property>
+      <obj_property name="ObjectShortName">time_acc_48s[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/time_acc_modulo" type="array">
+      <obj_property name="ElementShortName">time_acc_modulo[37:0]</obj_property>
+      <obj_property name="ObjectShortName">time_acc_modulo[37:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tns_tsn_03_tb/dut/time_sync_hw_i/rtc_i/initial_period_fix" type="array">
+      <obj_property name="ElementShortName">initial_period_fix[39:0]</obj_property>
+      <obj_property name="ObjectShortName">initial_period_fix[39:0]</obj_property>
+   </wvobject>
+</wave_config>

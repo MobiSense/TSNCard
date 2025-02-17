@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tsu_axis_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tsu_axis_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3514000fs"></ZoomStartTime>
+      <ZoomEndTime time="3953801fs"></ZoomEndTime>
+      <Cursor1Time time="3760000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="410"></NameColumnWidth>
+      <ValueColumnWidth column_width="173"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/tsu_axis_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/mac_axis_aclk" type="logic">
+      <obj_property name="ElementShortName">mac_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/mac_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/mac_axis_tready" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/mac_axis_tdata" type="array">
+      <obj_property name="ElementShortName">mac_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/mac_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">mac_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">mac_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ptp_msgid_mask" type="array">
+      <obj_property name="ElementShortName">ptp_msgid_mask[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ptp_msgid_mask[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/rtc_timer_clk" type="logic">
+      <obj_property name="ElementShortName">rtc_timer_clk</obj_property>
+      <obj_property name="ObjectShortName">rtc_timer_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/rtc_timer_in" type="array">
+      <obj_property name="ElementShortName">rtc_timer_in[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rtc_timer_in[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/q_rst" type="logic">
+      <obj_property name="ElementShortName">q_rst</obj_property>
+      <obj_property name="ObjectShortName">q_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/q_rd_clk" type="logic">
+      <obj_property name="ElementShortName">q_rd_clk</obj_property>
+      <obj_property name="ObjectShortName">q_rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/q_rd_en" type="logic">
+      <obj_property name="ElementShortName">q_rd_en</obj_property>
+      <obj_property name="ObjectShortName">q_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/q_rd_stat" type="array">
+      <obj_property name="ElementShortName">q_rd_stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q_rd_stat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/q_rd_data" type="array">
+      <obj_property name="ElementShortName">q_rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">q_rd_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/axis_state" type="logic">
+      <obj_property name="ElementShortName">axis_state</obj_property>
+      <obj_property name="ObjectShortName">axis_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/nxt_axis_state" type="logic">
+      <obj_property name="ElementShortName">nxt_axis_state</obj_property>
+      <obj_property name="ObjectShortName">nxt_axis_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_req" type="logic">
+      <obj_property name="ElementShortName">ts_req</obj_property>
+      <obj_property name="ObjectShortName">ts_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_req_d1" type="logic">
+      <obj_property name="ElementShortName">ts_req_d1</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_req_d2" type="logic">
+      <obj_property name="ElementShortName">ts_req_d2</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_req_d3" type="logic">
+      <obj_property name="ElementShortName">ts_req_d3</obj_property>
+      <obj_property name="ObjectShortName">ts_req_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/rtc_time_stamp" type="array">
+      <obj_property name="ElementShortName">rtc_time_stamp[79:0]</obj_property>
+      <obj_property name="ObjectShortName">rtc_time_stamp[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_ack" type="logic">
+      <obj_property name="ElementShortName">ts_ack</obj_property>
+      <obj_property name="ObjectShortName">ts_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_ack_clr" type="logic">
+      <obj_property name="ElementShortName">ts_ack_clr</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_ack_d1" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d1</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_ack_d2" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d2</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ts_ack_d3" type="logic">
+      <obj_property name="ElementShortName">ts_ack_d3</obj_property>
+      <obj_property name="ObjectShortName">ts_ack_d3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/tsu_time_stamp" type="array">
+      <obj_property name="ElementShortName">tsu_time_stamp[79:0]</obj_property>
+      <obj_property name="ObjectShortName">tsu_time_stamp[79:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_valid" type="logic">
+      <obj_property name="ElementShortName">int_valid</obj_property>
+      <obj_property name="ObjectShortName">int_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_sop" type="logic">
+      <obj_property name="ElementShortName">int_sop</obj_property>
+      <obj_property name="ObjectShortName">int_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_eop" type="logic">
+      <obj_property name="ElementShortName">int_eop</obj_property>
+      <obj_property name="ObjectShortName">int_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_bcnt" type="array">
+      <obj_property name="ElementShortName">int_bcnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_bcnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_mod" type="array">
+      <obj_property name="ElementShortName">int_mod[1:0]</obj_property>
+      <obj_property name="ObjectShortName">int_mod[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/int_data" type="array">
+      <obj_property name="ElementShortName">int_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">int_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ptp_found" type="logic">
+      <obj_property name="ElementShortName">ptp_found</obj_property>
+      <obj_property name="ObjectShortName">ptp_found</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/ptp_infor" type="array">
+      <obj_property name="ElementShortName">ptp_infor[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ptp_infor[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/IDLE" type="logic">
+      <obj_property name="ElementShortName">IDLE</obj_property>
+      <obj_property name="ObjectShortName">IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tsu_axis_tb/dut/TRANSFER" type="logic">
+      <obj_property name="ElementShortName">TRANSFER</obj_property>
+      <obj_property name="ObjectShortName">TRANSFER</obj_property>
+   </wvobject>
+</wave_config>
