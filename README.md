@@ -42,7 +42,7 @@ TSNCard paper presents two experimental setups. One relies on a **software-simul
 
 Developers who want to use OMNet++ should refer to the `simulation` folder and follow the documentation provided. 
 
-* [Getting start with OMNet++](./simulation/readme.md)
+* [Getting start with OMNet++](./Simulation/readme.md)
 
 
 
@@ -50,13 +50,13 @@ For those looking to use the testbed, please be patient. The code is in the `tes
 
 In a real TSN network, we need at least  TSN switches, end devices, and a server (CNC). Both the switch and TSNPerf (end device) are developed based on ZYNQ, requiring hardware-software coordination. To this end, we provide detailed system design documents and software and hardware operation documents.The server-side software can run on any Linux system. 
 
-* [Getting start with TSNPerf](./testbed/TSNPerf/docs/readme.md)
-* [Getting start with TSN Switch](./testbed/TSN-Switch/docs/readme.md)
-* [Getting start with server/CNC](./testbed/server-CNC/readme.md)
+* [Getting start with TSNPerf](./Testbed/TSNPerf/docs/readme.md)
+* [Getting start with TSN Switch](./Testbed/TSN-Switch/docs/readme.md)
+* [Getting start with server/CNC](./Testbed/server-CNC/readme.md)
 
 To help everyone get started, we also provide a tutorial for building a simple TSN network, which we hope will be useful.
 
-* [Demo tutorial](./testbed/testbed-build/readme.md) 
+* [Demo tutorial](./Testbed/testbed-build/readme.md) 
 
 
 
