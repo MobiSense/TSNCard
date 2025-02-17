@@ -52,7 +52,7 @@ In a real TSN network, we need at least  TSN switches, end devices, and a server
 
 * [Getting start with TSNPerf](./Testbed/TSNPerf/docs/readme.md)
 * [Getting start with TSN Switch](./Testbed/TSN-Switch/docs/readme.md)
-* [Getting start with server/CNC](./Testbed/server-CNC/readme.md)
+* [Getting start with server/CNC](./Testbed/Server-CNC/readme.md)
 
 To help everyone get started, we also provide a tutorial for building a simple TSN network, which we hope will be useful.
 
