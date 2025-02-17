@@ -21,7 +21,7 @@ Official download address for MobaXterm: [MobaXterm Xserver with SSH, telnet, RD
 
 ### Alinx7021 Development Board
 
-<img src="../figs/alinx7021.png" alt="Alinx" style="zoom:50%;" />
+<img src="../figs/Alinx7021.png" alt="Alinx" style="zoom:50%;" />
 
 ### SD Boot Card
 
