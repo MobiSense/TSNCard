@@ -1,36 +1,37 @@
-# Preparation Checklist
-## Software Environment Checklist
+# Getting Start
 
-### Vivado Development Environment
+## Folder Structure
 
-Vivado is the hardware development program for development boards.
+```bash
+.
+├── docs                    //documents for TSNPerf
+├── figs                    //figures for docs
+├── hardware                //hareware code, for PL part(pkt_gen, time sync in FPGA)
+├── software                //software code, for ps part(pkt_gen, time sync)
+```
 
-Official download address for Vivado software by Xilinx: http://china.xilinx.com/support/download.html
 
-Our development team uses the ***2020.1*** version of Vivado, and we recommend that ZIGGO project users also use the same version to avoid unnecessary trouble.
 
-For the specific installation process, refer to [ZYNQ Application Tutorial](https://cloud.tsinghua.edu.cn/f/f9f1a4f92a344e8e9c2c/) **Chapter 3 Vivado Development Environment** for installation.
+## System Design
 
-### MobaXterm
+TSNPerf  is implemented on ZYNQ-7000 SoC and exploits ZYNQ's both hardware and software programmability. 
 
-MobaXterm is a serial connection tool, which we introduced in the chapter "Launch the Board and log in" in [hardware_build.md](/ziggo_book/docs/device/hardware-build/).
+![system-design](../figs/system-design.PNG)
 
-Official download address for MobaXterm: [MobaXterm Xserver with SSH, telnet, RDP, VNC and X11 - Download (mobatek.net)](https://mobaxterm.mobatek.net/download.html)
+For more system design detail, please refer to [system-design.md](./system-design.md)
 
-## Hardware Preparation Checklist
 
-### Alinx7021 Development Board
 
-<img src="../figs/alinx7021.png" alt="Alinx" style="zoom:50%;" />
+## Before Start
 
-### SD Boot Card
+Getting TSNPerf up and running isn't exactly a walk in the park, so I'd recommend gauging your patience level before diving in. If you're feeling confident, double-check that you've got all the necessary software and hardware ready to go. (refer to [require.md](./require.md)) 
 
-The SD boot card contains the operating system, recommended capacity $\geq$ 32GB.
 
-### Essential Cables
 
-Includes Ethernet cables, data cables, etc.
+## Building and Starting the TSNPerf
 
-### Standard Switch
+TSNPerf is a tool that requires tight coordination between hardware and software. First, we need to flash the hardware onto the FPGA board and initialize the system for it. Then, on that system, we'll run the program we've developed:
 
-If using a large number of development boards, consider connecting all development boards to a standard switch, then connecting the switch to a PC (via Ethernet) for management and use.
+* [Set up the FPGA board and initialize PS system](hardware-build.md)
+
+* [Compile software code, run the time synchronization & pkt _gen_app](software-build.md)
