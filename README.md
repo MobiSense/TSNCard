@@ -50,8 +50,8 @@ For those looking to use the testbed, please be patient. The code is in the `tes
 
 In a real TSN network, we need at least  TSN switches, end devices, and a server (CNC). Both the switch and TSNPerf (end device) are developed based on ZYNQ, requiring hardware-software coordination. To this end, we provide detailed system design documents and software and hardware operation documents.The server-side software can run on any Linux system. 
 
-* [Getting start with TSNPerf](./Testbed/TSNPerf/docs/readme.md)
-* [Getting start with TSN Switch](./Testbed/TSN-Switch/docs/readme.md)
+* [Getting start with TSNPerf](./Testbed/TSNPerf/readme.md)
+* [Getting start with TSN Switch](./Testbed/TSN-Switch/readme.md)
 * [Getting start with server/CNC](./Testbed/Server-CNC/readme.md)
 
 To help everyone get started, we also provide a tutorial for building a simple TSN network, which we hope will be useful.
