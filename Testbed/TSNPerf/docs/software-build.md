@@ -8,8 +8,6 @@ This repo contains source code to enable TSN/CaaS Device' time synchronization l
 - [2. Config](#2-config)
 - [3. Run](#3-run)
 - [4. Analyze](#4-analyze)
-  - [4.1 Device directly analyzes latency and jitter](#41-Device-directly-analyzes-latency-and-jitter)
-  - [4.2 Offline analysis of latency and jitter](#42-offline-analysis-of-latency-and-jitter)
 
 ## 1. Build
 
