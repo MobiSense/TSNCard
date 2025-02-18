@@ -10,11 +10,13 @@ Running a TSNCard simulation requires 2 configuration files: network topology co
 
 To run a simulation, load `*.ned` in OMNeT++, configure it with `*.ini`, then start simulation. Raw log files will be stored under `log` folder. After simulation finishes, run `Simulation/log/log_analysis.py` to analyze log files and generate postcard-formed network log.
 
-Then run TSNCard software to launch TSN error diagnosis.
+Then run TSNCard software to launch TSN error diagnosis. Below is an example using the ring6 topology.
 
-![](./figs/running.png)
+![](./figs/step1.png)
 
+![](./figs/step2.png)
 
+![](./figs/step3.png)
 
 ### Network Error Simulation
 
